@@ -57,11 +57,10 @@ def shorten_url():
     try:
         chars=string.digits + string.ascii_letters
         shorten_url = ''.join(random.sample(chars, 6))
-    except ValueError:
-        print('Mismatch with decalaration and input' + e)
-
         minifiedURL = "http://127.0.0.1:5000/"+shorten_url
         return minifiedURL
+    except ValueError:
+        print('Mismatch with decalaration and input' + e)
 
 ##def writetoCSV(csvName):
 ##
@@ -78,20 +77,6 @@ def shorten_url():
 ##        #f=open(result.rsplit('.')[0]+'.csv','w')
 ##        f.write(result)
 ##        f.close()
-    
-class display(Resource):
-
-    ps.enable()
-    def get(self):
-        try:
-            app.logger.info('Loading the Home Page')
-            filename = 'file:///users/raghupathynarayanamoorthy/Desktop/fabrikProject/index.html'
-        except FileNotFoundError as e:
-            app.logger.error('Exception occured when loading the Home Page : ' + e)
-            print ("File not found in the specified path. Please check in the path mentioned." + e)
-        return webbrowser.open_new_tab(filename)
-    ps.disable()
-##    writetoCSV('profiler-output.csv')
 
 class URL_Minifier(Resource):
 
@@ -104,7 +89,7 @@ class URL_Minifier(Resource):
             url1 = "https://"+url1
         try:
             df4 = pandas.read_excel('check.xlsx')
-            if getattr(df4, 'Long').isin([url1]).any() :
+            if getattr(df4,'Long').isin([url1]).any() :
                 app.logger.info('The input URL was already minified by us')
                 minifier = df4.loc[df4['Long'] == url1, 'Short'].item()
                 app.logger.info('Redirecting to the minified URL')
@@ -148,8 +133,7 @@ class URL_Redirection(Resource):
 
     ps.disable()
 ##    writetoCSV('profiler-output.csv')
-    
-api.add_resource(display, '/')
+
 api.add_resource(URL_Minifier, '/api/minify')  
 api.add_resource(URL_Redirection, '/<string:key>')
 
