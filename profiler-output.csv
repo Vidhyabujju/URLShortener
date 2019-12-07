@@ -1,0 +1,11 @@
+ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
+989,0.000,0.000,0.000,0.000,{built-in method builtins.hasattr}
+989,0.001,0.000,0.001,0.000,{built-in method builtins.isinstance}
+989,0.000,0.000,0.000,0.000,{built-in method builtins.len}
+989,0.001,0.000,0.001,0.000,/anaconda3/lib/python3.7/cProfile.py:50(create_stats)
+989,0.003,0.000,0.009,0.000,/anaconda3/lib/python3.7/pstats.py:89(__init__)
+989,0.003,0.000,0.006,0.000,/anaconda3/lib/python3.7/pstats.py:99(init)
+989,0.002,0.000,0.003,0.000,/anaconda3/lib/python3.7/pstats.py:118(load_stats)
+990,0.000,0.000,0.000,0.000,{method 'disable' of '_lsprof.Profiler' objects}
+
+

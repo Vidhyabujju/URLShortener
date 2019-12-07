@@ -1,0 +1,824 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 296-670-759
+INFO:werkzeug: * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:39:06,546 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 18:39:06,547 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:39:07,440 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:39:07,451 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:44:15,215 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:44:15,378 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:44:16,591 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:44:16,601 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:44:28,700 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 18:44:28,949 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:44:28] "GET / HTTP/1.1" 200 -
+2019-12-06 18:44:32,815 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 18:44:32] "GET /I3trKV HTTP/1.1" 200 -
+2019-12-06 18:44:32,819 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 18:44:32] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 18:44:56,632 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 18:44:56] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 500 -
+2019-12-06 18:44:56,696 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 18:44:56] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:44:56,700 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 18:44:56] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:44:56,702 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 18:44:56] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:44:56,909 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Dec/2019 18:44:56] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:44:56,937 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Dec/2019 18:44:56] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 18:44:56,989 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Dec/2019 18:44:56] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:47:25,148 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:47:25,283 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:47:26,264 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:47:26,271 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:47:36,470 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 18:47:36,471 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:47:37,341 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:47:37,348 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:48:09,165 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:48:09] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 500 -
+2019-12-06 18:48:09,240 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 18:48:09] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:48:09,242 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 18:48:09] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:48:09,243 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 18:48:09] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:48:09,440 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 18:48:09] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:48:09,470 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 18:48:09] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 18:48:38,329 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:48:38,458 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:48:39,535 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:48:39,543 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:48:42,223 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:48:42] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 500 -
+2019-12-06 18:48:42,297 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 18:48:42] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:48:42,299 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 18:48:42] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:48:42,303 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 18:48:42] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:48:42,535 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 18:48:42] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:48:42,568 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 18:48:42] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 18:49:07,216 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:49:07,340 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:49:08,377 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:49:08,385 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:49:11,514 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:49:11] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 200 -
+2019-12-06 18:49:37,875 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:49:38,002 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:49:39,173 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:49:39,182 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:49:39,233 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:49:39] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 200 -
+2019-12-06 18:49:51,838 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 18:49:51,839 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:49:52,794 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:49:52,802 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:49:56,003 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:49:56] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 200 -
+2019-12-06 18:50:25,501 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:50:25,622 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:50:26,609 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:50:26,616 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:50:28,530 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:50:28] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 500 -
+2019-12-06 18:50:28,550 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 18:50:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:50:28,551 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 18:50:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:50:28,552 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 18:50:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:50:28,637 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 18:50:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:50:28,656 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 18:50:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 18:50:28,680 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 18:50:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:51:27,800 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:51:27,926 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:51:29,018 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:51:29,027 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:51:34,386 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 18:51:34,387 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:51:35,361 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:51:35,368 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:51:40,181 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:51:40] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 200 -
+2019-12-06 18:51:47,102 INFO flask.app Thread-3 : Loading the Home Page
+2019-12-06 18:51:47,272 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 18:51:47] "GET / HTTP/1.1" 200 -
+2019-12-06 18:51:54,393 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 18:51:54] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 200 -
+2019-12-06 18:52:16,546 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:52:16,693 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:52:17,861 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:52:17,871 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:52:19,734 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 18:52:19,919 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:52:19] "GET / HTTP/1.1" 200 -
+2019-12-06 18:52:24,867 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 18:52:24] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 200 -
+2019-12-06 18:53:13,659 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 18:53:13] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 200 -
+2019-12-06 18:53:16,982 INFO flask.app Thread-6 : Loading the Home Page
+2019-12-06 18:53:17,160 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 18:53:17] "GET / HTTP/1.1" 200 -
+2019-12-06 18:53:28,965 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 18:53:28] "GET /api/minify?url=https://stackoverflow.com/questions/ HTTP/1.1" 200 -
+2019-12-06 18:57:39,982 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 18:57:40,111 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 18:57:41,188 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 18:57:41,208 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 18:57:50,166 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 18:57:50] "GET /api/minify?url=https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program HTTP/1.1" 500 -
+2019-12-06 18:57:50,199 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 18:57:50] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:57:50,201 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 18:57:50] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:57:50,205 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 18:57:50] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:57:50,327 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 18:57:50] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:57:50,353 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 18:57:50] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 18:57:50,392 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 18:57:50] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:58:15,909 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 18:58:15] "GET /api/minify?url=https://stackoverflow.com/questions/ HTTP/1.1" 500 -
+2019-12-06 18:58:15,938 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Dec/2019 18:58:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:58:15,949 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Dec/2019 18:58:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:58:15,955 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Dec/2019 18:58:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:58:16,039 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Dec/2019 18:58:16] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:58:16,057 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Dec/2019 18:58:16] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 18:58:28,123 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Dec/2019 18:58:28] "GET /api/minify?url=%27https://stackoverflow.com/questions/%27 HTTP/1.1" 500 -
+2019-12-06 18:58:28,162 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Dec/2019 18:58:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:58:28,171 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Dec/2019 18:58:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:58:28,173 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Dec/2019 18:58:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:58:28,211 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Dec/2019 18:58:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:58:28,269 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Dec/2019 18:58:28] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 18:59:45,838 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Dec/2019 18:59:45] "GET /api/minify?url=https://www.google.com/search?ei=x5LqXcSRBsGNlwSr_JPADA&q=e.stacktrace%28%29+python+syntax&oq=e.stacktrace%28%29+python+syntax&gs_l=psy-ab.3...44504.45389..45699...0.2..0.52.170.4......0....1..gws-wiz.......0i71.oqCR_gkdY9Y&ved=0ahUKEwiEkZrxyKHmAhXBxoUKHSv-BMgQ4dUDCAs&uact=5 HTTP/1.1" 500 -
+2019-12-06 18:59:45,916 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Dec/2019 18:59:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 18:59:45,920 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Dec/2019 18:59:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 18:59:45,922 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Dec/2019 18:59:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 18:59:46,106 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Dec/2019 18:59:46] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 18:59:46,131 INFO werkzeug Thread-26 : 127.0.0.1 - - [06/Dec/2019 18:59:46] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 19:00:45,111 INFO werkzeug Thread-27 : 127.0.0.1 - - [06/Dec/2019 19:00:45] "GET /api/minify?url=https://www.google.com/ HTTP/1.1" 500 -
+2019-12-06 19:00:45,153 INFO werkzeug Thread-28 : 127.0.0.1 - - [06/Dec/2019 19:00:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 19:00:45,165 INFO werkzeug Thread-29 : 127.0.0.1 - - [06/Dec/2019 19:00:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 19:00:45,167 INFO werkzeug Thread-30 : 127.0.0.1 - - [06/Dec/2019 19:00:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 19:00:45,215 INFO werkzeug Thread-31 : 127.0.0.1 - - [06/Dec/2019 19:00:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 19:00:45,274 INFO werkzeug Thread-32 : 127.0.0.1 - - [06/Dec/2019 19:00:45] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 19:11:44,164 INFO werkzeug Thread-33 : 127.0.0.1 - - [06/Dec/2019 19:11:44] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 19:11:44,239 INFO werkzeug Thread-34 : 127.0.0.1 - - [06/Dec/2019 19:11:44] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 19:11:44,243 INFO werkzeug Thread-35 : 127.0.0.1 - - [06/Dec/2019 19:11:44] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 19:11:44,243 INFO werkzeug Thread-36 : 127.0.0.1 - - [06/Dec/2019 19:11:44] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 19:11:44,416 INFO werkzeug Thread-37 : 127.0.0.1 - - [06/Dec/2019 19:11:44] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 19:11:44,442 INFO werkzeug Thread-38 : 127.0.0.1 - - [06/Dec/2019 19:11:44] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 19:14:04,373 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:14:04,539 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:14:05,825 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:14:05,835 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:14:20,431 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:14:20] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 19:14:20,510 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:14:20] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 19:14:20,511 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 19:14:20] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 19:14:20,511 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 19:14:20] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 19:14:20,687 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 19:14:20] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 19:14:20,713 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 19:14:20] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 19:14:54,243 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:14:54,376 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:17:38,890 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:17:38,898 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:23:45,283 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:24:45,709 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 19:24:45,710 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:24:46,631 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:24:46,639 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:24:55,534 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:24:55] "GET / HTTP/1.1" 200 -
+2019-12-06 19:24:59,468 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:24:59] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 19:29:10,142 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 19:29:10] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 19:29:15,660 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 19:29:15] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 19:34:08,570 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:34:08,697 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:34:44,025 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 19:34:44,026 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:34:44,900 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:34:44,907 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:35:02,146 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:35:02] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 19:35:02,240 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:35:02] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 19:35:02,242 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 19:35:02] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 19:35:02,243 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 19:35:02] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 19:35:02,414 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 19:35:02] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 19:35:02,437 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 19:35:02] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 19:54:59,748 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 19:54:59,753 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:55:01,040 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:55:01,059 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:55:22,235 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:55:22] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 19:55:23,058 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 19:55:23] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 19:55:23,059 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 19:55:23] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 19:55:23,059 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:55:23] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 19:55:23,268 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 19:55:23] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 19:55:23,293 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 19:55:23] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 19:55:59,410 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:55:59,577 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:56:00,719 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:56:00,728 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:56:01,426 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:56:01] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 19:56:01,482 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:56:01] "GET /favicon.ico HTTP/1.1" 500 -
+2019-12-06 19:56:34,084 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:56:34,238 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:56:35,598 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:56:35,606 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:56:35,655 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:56:35] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 19:56:35,720 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:56:35] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 19:56:37,531 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 19:56:37] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 19:56:37,569 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 19:56:37] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 19:57:12,943 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:57:13,078 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:57:14,090 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:57:14,098 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:57:14,421 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:57:14] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 19:57:14,461 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:57:14] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 19:57:41,547 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 19:57:41,668 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 19:57:42,673 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 19:57:42,681 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 19:57:45,459 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 19:57:45] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 19:57:45,491 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 19:57:45] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:01:12,702 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:01:12] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:01:12,749 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:01:12] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:01:13,425 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:01:13,462 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:01:13,592 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:01:13,626 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:01:13,766 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:01:13,817 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:01:13,925 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:01:13,974 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Dec/2019 20:01:13] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:01:14,084 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Dec/2019 20:01:14] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:01:14,124 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Dec/2019 20:01:14] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:01:14,251 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Dec/2019 20:01:14] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:01:14,299 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Dec/2019 20:01:14] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:12:55,512 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:12:55,651 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:12:56,685 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:12:56,695 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:13:21,894 INFO flask.app Thread-2 : Minifying the URL
+2019-12-06 20:13:21,956 INFO flask.app Thread-2 : The input URL was already minified by us
+2019-12-06 20:13:21,957 INFO flask.app Thread-2 : Redirecting to the minified URL
+2019-12-06 20:13:21,968 ERROR flask.app Thread-2 : Exception occured when minifying the URL
+2019-12-06 20:13:21,969 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:13:21] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:13:22,099 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:13:22,106 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:13:22] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:16:54,010 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:16:54,132 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:16:55,205 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:16:55,213 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:17:02,200 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 20:17:02,218 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:17:02] "GET / HTTP/1.1" 500 -
+2019-12-06 20:17:02,293 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:17:02] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 20:17:02,293 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:17:02] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 20:17:02,311 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:17:02] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 20:17:02,476 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:17:02] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:17:02,500 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:17:02] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 20:17:02,535 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:17:02] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:17:15,196 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:17:15,336 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:17:16,364 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:17:16,373 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:17:16,538 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 20:17:16,541 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:17:16] "GET / HTTP/1.1" 404 -
+2019-12-06 20:17:16,583 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:17:16,617 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:17:16] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:17:41,734 INFO flask.app Thread-4 : Loading the Home Page
+2019-12-06 20:17:41,736 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:17:41] "GET / HTTP/1.1" 404 -
+2019-12-06 20:17:41,754 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 20:17:41,762 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:17:41] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:17:53,327 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 20:17:53,328 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:17:54,246 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:17:54,254 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:19:25,510 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:19:25,631 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:19:26,697 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:19:26,710 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:19:27,673 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 20:19:27,675 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:19:27] "GET / HTTP/1.1" 404 -
+2019-12-06 20:19:27,696 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:19:27,725 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:19:27] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:19:36,969 INFO flask.app Thread-4 : Loading the Home Page
+2019-12-06 20:19:36,970 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:19:36] "GET / HTTP/1.1" 404 -
+2019-12-06 20:19:36,997 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 20:19:37,010 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:19:37] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:21:35,347 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:21:35,516 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:21:36,660 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:21:36,671 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:21:44,252 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 20:21:44,265 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:21:44] "GET / HTTP/1.1" 500 -
+2019-12-06 20:21:44,291 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:21:44] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 20:21:44,303 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:21:44] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 20:21:44,303 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:21:44] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 20:21:44,390 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:21:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:21:44,414 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:21:44] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 20:21:44,458 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:21:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:22:12,346 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:22:12,467 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:22:13,397 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:22:13,405 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:22:19,099 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 20:22:19,348 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:22:19] "GET / HTTP/1.1" 200 -
+2019-12-06 20:22:19,546 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:22:19,582 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:22:19] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:22:23,727 INFO flask.app Thread-4 : Minifying the URL
+2019-12-06 20:22:23,742 INFO flask.app Thread-4 : The input URL was already minified by us
+2019-12-06 20:22:23,744 INFO flask.app Thread-4 : Redirecting to the minified URL
+2019-12-06 20:22:23,751 ERROR flask.app Thread-4 : Exception occured when minifying the URL
+2019-12-06 20:22:23,752 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:22:23] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 20:22:23,898 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 20:22:23,910 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:22:23] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:22:32,181 INFO flask.app Thread-6 : Redirecting to the long URL
+2019-12-06 20:22:32,191 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:22:32] "GET /yulkbmnb HTTP/1.1" 200 -
+2019-12-06 20:22:32,222 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-06 20:22:32,229 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:22:32] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:22:36,696 INFO flask.app Thread-8 : Redirecting to the long URL
+2019-12-06 20:22:36,705 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:22:36] "GET /yulkbmnb HTTP/1.1" 200 -
+2019-12-06 20:22:36,737 INFO flask.app Thread-9 : Redirecting to the long URL
+2019-12-06 20:22:36,747 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 20:22:36] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:23:58,474 INFO flask.app Thread-10 : Redirecting to the long URL
+2019-12-06 20:23:58,485 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Dec/2019 20:23:58] "GET /hello HTTP/1.1" 200 -
+2019-12-06 20:23:58,522 INFO flask.app Thread-11 : Redirecting to the long URL
+2019-12-06 20:23:58,533 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Dec/2019 20:23:58] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:08,579 INFO flask.app Thread-12 : Redirecting to the long URL
+2019-12-06 20:24:08,587 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Dec/2019 20:24:08] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:08,620 INFO flask.app Thread-13 : Redirecting to the long URL
+2019-12-06 20:24:08,626 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Dec/2019 20:24:08] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:17,483 INFO flask.app Thread-14 : Redirecting to the long URL
+2019-12-06 20:24:17,492 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Dec/2019 20:24:17] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:17,517 INFO flask.app Thread-15 : Redirecting to the long URL
+2019-12-06 20:24:17,524 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Dec/2019 20:24:17] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:18,346 INFO flask.app Thread-16 : Redirecting to the long URL
+2019-12-06 20:24:18,356 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Dec/2019 20:24:18] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:18,379 INFO flask.app Thread-17 : Redirecting to the long URL
+2019-12-06 20:24:18,387 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Dec/2019 20:24:18] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:18,845 INFO flask.app Thread-18 : Redirecting to the long URL
+2019-12-06 20:24:18,857 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Dec/2019 20:24:18] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:18,881 INFO flask.app Thread-19 : Redirecting to the long URL
+2019-12-06 20:24:18,890 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Dec/2019 20:24:18] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:19,244 INFO flask.app Thread-20 : Redirecting to the long URL
+2019-12-06 20:24:19,258 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:19,286 INFO flask.app Thread-21 : Redirecting to the long URL
+2019-12-06 20:24:19,293 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:19,439 INFO flask.app Thread-22 : Redirecting to the long URL
+2019-12-06 20:24:19,444 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:19,472 INFO flask.app Thread-23 : Redirecting to the long URL
+2019-12-06 20:24:19,478 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:19,618 INFO flask.app Thread-24 : Redirecting to the long URL
+2019-12-06 20:24:19,626 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:19,652 INFO flask.app Thread-25 : Redirecting to the long URL
+2019-12-06 20:24:19,662 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:19,805 INFO flask.app Thread-26 : Redirecting to the long URL
+2019-12-06 20:24:19,815 INFO werkzeug Thread-26 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:19,841 INFO flask.app Thread-27 : Redirecting to the long URL
+2019-12-06 20:24:19,848 INFO werkzeug Thread-27 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:19,989 INFO flask.app Thread-28 : Redirecting to the long URL
+2019-12-06 20:24:19,995 INFO werkzeug Thread-28 : 127.0.0.1 - - [06/Dec/2019 20:24:19] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:20,021 INFO flask.app Thread-29 : Redirecting to the long URL
+2019-12-06 20:24:20,029 INFO werkzeug Thread-29 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:20,161 INFO flask.app Thread-30 : Redirecting to the long URL
+2019-12-06 20:24:20,169 INFO werkzeug Thread-30 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:20,194 INFO flask.app Thread-31 : Redirecting to the long URL
+2019-12-06 20:24:20,202 INFO werkzeug Thread-31 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:20,347 INFO flask.app Thread-32 : Redirecting to the long URL
+2019-12-06 20:24:20,356 INFO werkzeug Thread-32 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:20,380 INFO flask.app Thread-33 : Redirecting to the long URL
+2019-12-06 20:24:20,388 INFO werkzeug Thread-33 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:20,544 INFO flask.app Thread-34 : Redirecting to the long URL
+2019-12-06 20:24:20,556 INFO werkzeug Thread-34 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:20,588 INFO flask.app Thread-35 : Redirecting to the long URL
+2019-12-06 20:24:20,597 INFO werkzeug Thread-35 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:20,746 INFO flask.app Thread-36 : Redirecting to the long URL
+2019-12-06 20:24:20,755 INFO werkzeug Thread-36 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:20,791 INFO flask.app Thread-37 : Redirecting to the long URL
+2019-12-06 20:24:20,802 INFO werkzeug Thread-37 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:20,921 INFO flask.app Thread-38 : Redirecting to the long URL
+2019-12-06 20:24:20,929 INFO werkzeug Thread-38 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:20,955 INFO flask.app Thread-39 : Redirecting to the long URL
+2019-12-06 20:24:20,960 INFO werkzeug Thread-39 : 127.0.0.1 - - [06/Dec/2019 20:24:20] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:21,116 INFO flask.app Thread-40 : Redirecting to the long URL
+2019-12-06 20:24:21,127 INFO werkzeug Thread-40 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:21,157 INFO flask.app Thread-41 : Redirecting to the long URL
+2019-12-06 20:24:21,164 INFO werkzeug Thread-41 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:21,314 INFO flask.app Thread-42 : Redirecting to the long URL
+2019-12-06 20:24:21,323 INFO werkzeug Thread-42 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:21,354 INFO flask.app Thread-43 : Redirecting to the long URL
+2019-12-06 20:24:21,364 INFO werkzeug Thread-43 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:21,604 INFO flask.app Thread-44 : Redirecting to the long URL
+2019-12-06 20:24:21,639 INFO werkzeug Thread-44 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:21,664 INFO flask.app Thread-45 : Redirecting to the long URL
+2019-12-06 20:24:21,673 INFO werkzeug Thread-45 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:21,798 INFO flask.app Thread-46 : Redirecting to the long URL
+2019-12-06 20:24:21,805 INFO werkzeug Thread-46 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:21,834 INFO flask.app Thread-47 : Redirecting to the long URL
+2019-12-06 20:24:21,841 INFO werkzeug Thread-47 : 127.0.0.1 - - [06/Dec/2019 20:24:21] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:22,003 INFO flask.app Thread-48 : Redirecting to the long URL
+2019-12-06 20:24:22,012 INFO werkzeug Thread-48 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:22,042 INFO flask.app Thread-49 : Redirecting to the long URL
+2019-12-06 20:24:22,048 INFO werkzeug Thread-49 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:22,209 INFO flask.app Thread-50 : Redirecting to the long URL
+2019-12-06 20:24:22,217 INFO werkzeug Thread-50 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:22,244 INFO flask.app Thread-51 : Redirecting to the long URL
+2019-12-06 20:24:22,256 INFO werkzeug Thread-51 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:22,419 INFO flask.app Thread-52 : Redirecting to the long URL
+2019-12-06 20:24:22,427 INFO werkzeug Thread-52 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:22,455 INFO flask.app Thread-53 : Redirecting to the long URL
+2019-12-06 20:24:22,460 INFO werkzeug Thread-53 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:24:22,645 INFO flask.app Thread-54 : Redirecting to the long URL
+2019-12-06 20:24:22,653 INFO werkzeug Thread-54 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /goof HTTP/1.1" 200 -
+2019-12-06 20:24:22,680 INFO flask.app Thread-55 : Redirecting to the long URL
+2019-12-06 20:24:22,689 INFO werkzeug Thread-55 : 127.0.0.1 - - [06/Dec/2019 20:24:22] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:26:04,901 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:26:05,024 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:26:05,982 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:26:05,997 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:26:12,169 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-06 20:26:12,211 INFO flask.app Thread-2 : Exception occured when redirecting to the long URL
+2019-12-06 20:26:12,213 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:26:12] "GET /bvc HTTP/1.1" 200 -
+2019-12-06 20:26:12,333 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:26:12,342 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 20:26:12,342 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:26:12] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:26:52,313 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:26:52,448 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:26:53,768 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:26:53,784 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:26:58,164 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-06 20:26:58,206 INFO flask.app Thread-2 : Exception occured when redirecting to the long URL
+2019-12-06 20:26:58,207 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:26:58] "GET /mk HTTP/1.1" 200 -
+2019-12-06 20:26:58,327 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:26:58,334 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 20:26:58,334 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:26:58] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:32:44,614 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:32:44,749 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:32:46,594 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:32:46,604 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:33:01,425 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:33:01,583 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:33:02,670 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:33:02,678 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:33:14,313 INFO flask.app Thread-2 : Minifying the URL
+2019-12-06 20:33:14,331 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:33:14] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 20:33:15,106 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:33:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 20:33:15,107 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:33:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 20:33:15,108 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:33:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 20:33:15,289 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:33:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:33:15,313 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:33:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 20:33:15,343 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:33:15] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:33:33,450 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:33:33,589 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:33:34,729 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:33:34,737 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:33:36,564 INFO flask.app Thread-2 : Minifying the URL
+2019-12-06 20:33:36,577 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:33:36] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 20:33:36,600 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:33:36] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 20:33:36,609 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:33:36] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 20:33:36,610 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:33:36] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 20:33:36,675 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:33:36] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:33:36,695 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:33:36] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 20:33:36,723 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:33:36] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:34:02,446 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:34:02,658 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:34:03,904 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:34:03,916 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:34:03,924 INFO flask.app Thread-2 : Minifying the URL
+2019-12-06 20:34:03,956 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:34:03] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 20:34:03,996 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:34:03] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 20:34:03,998 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:34:03] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 20:34:03,998 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:34:03] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 20:34:04,112 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:34:04] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:34:04,132 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:34:04] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 20:34:04,161 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:34:04] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:34:52,768 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:34:52,918 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:34:54,150 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:34:54,160 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:34:54,167 INFO flask.app Thread-2 : Minifying the URL
+2019-12-06 20:34:54,181 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:34:54] "GET /api/minify?url=https://www.google.com HTTP/1.1" 500 -
+2019-12-06 20:34:54,217 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:34:54] "GET /api/minify?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 20:34:54,219 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:34:54] "GET /api/minify?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 20:34:54,220 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:34:54] "GET /api/minify?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 20:34:54,282 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:34:54] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:34:54,301 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:34:54] "GET /api/minify?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 20:34:54,324 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:34:54] "GET /api/minify?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 20:35:39,786 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 20:35:39,923 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:35:40,919 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:35:40,927 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:35:42,846 INFO flask.app Thread-2 : Minifying the URL
+2019-12-06 20:35:42,881 INFO flask.app Thread-2 : The input URL was already minified by us
+2019-12-06 20:35:42,883 INFO flask.app Thread-2 : Redirecting to the minified URL
+2019-12-06 20:35:42,891 ERROR flask.app Thread-2 : Exception occured when minifying the URL
+2019-12-06 20:35:42,892 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:35:42] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:35:42,931 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:35:42,943 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 20:35:42,944 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:35:42] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:52:36,103 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 20:52:36,104 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 20:52:37,009 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 20:52:37,017 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 20:53:30,651 INFO flask.app Thread-2 : Minifying the URL
+2019-12-06 20:53:30,716 INFO flask.app Thread-2 : The input URL was already minified by us
+2019-12-06 20:53:30,718 INFO flask.app Thread-2 : Redirecting to the minified URL
+2019-12-06 20:53:30,729 ERROR flask.app Thread-2 : Exception occured when minifying the URL
+2019-12-06 20:53:30,731 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 20:53:30] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:53:30,878 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 20:53:30,884 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 20:53:30,885 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 20:53:30] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:53:34,207 INFO flask.app Thread-4 : Minifying the URL
+2019-12-06 20:53:34,216 INFO flask.app Thread-4 : The input URL was already minified by us
+2019-12-06 20:53:34,217 INFO flask.app Thread-4 : Redirecting to the minified URL
+2019-12-06 20:53:34,217 ERROR flask.app Thread-4 : Exception occured when minifying the URL
+2019-12-06 20:53:34,218 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 20:53:34] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:53:34,249 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 20:53:34,258 INFO flask.app Thread-5 : Exception occured when redirecting to the long URL
+2019-12-06 20:53:34,259 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 20:53:34] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:53:35,016 INFO flask.app Thread-6 : Minifying the URL
+2019-12-06 20:53:35,028 INFO flask.app Thread-6 : The input URL was already minified by us
+2019-12-06 20:53:35,029 INFO flask.app Thread-6 : Redirecting to the minified URL
+2019-12-06 20:53:35,029 ERROR flask.app Thread-6 : Exception occured when minifying the URL
+2019-12-06 20:53:35,030 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:53:35,051 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-06 20:53:35,061 INFO flask.app Thread-7 : Exception occured when redirecting to the long URL
+2019-12-06 20:53:35,062 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:53:35,240 INFO flask.app Thread-8 : Minifying the URL
+2019-12-06 20:53:35,249 INFO flask.app Thread-8 : The input URL was already minified by us
+2019-12-06 20:53:35,250 INFO flask.app Thread-8 : Redirecting to the minified URL
+2019-12-06 20:53:35,250 ERROR flask.app Thread-8 : Exception occured when minifying the URL
+2019-12-06 20:53:35,251 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:53:35,273 INFO flask.app Thread-9 : Redirecting to the long URL
+2019-12-06 20:53:35,280 INFO flask.app Thread-9 : Exception occured when redirecting to the long URL
+2019-12-06 20:53:35,280 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:53:35,437 INFO flask.app Thread-10 : Minifying the URL
+2019-12-06 20:53:35,449 INFO flask.app Thread-10 : The input URL was already minified by us
+2019-12-06 20:53:35,450 INFO flask.app Thread-10 : Redirecting to the minified URL
+2019-12-06 20:53:35,450 ERROR flask.app Thread-10 : Exception occured when minifying the URL
+2019-12-06 20:53:35,450 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:53:35,475 INFO flask.app Thread-11 : Redirecting to the long URL
+2019-12-06 20:53:35,483 INFO flask.app Thread-11 : Exception occured when redirecting to the long URL
+2019-12-06 20:53:35,483 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:53:35,653 INFO flask.app Thread-12 : Minifying the URL
+2019-12-06 20:53:35,667 INFO flask.app Thread-12 : The input URL was already minified by us
+2019-12-06 20:53:35,669 INFO flask.app Thread-12 : Redirecting to the minified URL
+2019-12-06 20:53:35,669 ERROR flask.app Thread-12 : Exception occured when minifying the URL
+2019-12-06 20:53:35,669 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:53:35,694 INFO flask.app Thread-13 : Redirecting to the long URL
+2019-12-06 20:53:35,701 INFO flask.app Thread-13 : Exception occured when redirecting to the long URL
+2019-12-06 20:53:35,702 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 20:53:35,858 INFO flask.app Thread-14 : Minifying the URL
+2019-12-06 20:53:35,868 INFO flask.app Thread-14 : The input URL was already minified by us
+2019-12-06 20:53:35,870 INFO flask.app Thread-14 : Redirecting to the minified URL
+2019-12-06 20:53:35,870 ERROR flask.app Thread-14 : Exception occured when minifying the URL
+2019-12-06 20:53:35,870 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-06 20:53:35,909 INFO flask.app Thread-15 : Redirecting to the long URL
+2019-12-06 20:53:35,919 INFO flask.app Thread-15 : Exception occured when redirecting to the long URL
+2019-12-06 20:53:35,920 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Dec/2019 20:53:35] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:21:55,252 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 21:21:55,253 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:21:56,119 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:21:56,131 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:22:07,619 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 21:22:07,861 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 21:22:07] "GET / HTTP/1.1" 200 -
+2019-12-06 21:22:08,069 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 21:22:08,118 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 21:22:08,120 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 21:22:08] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:22:11,390 INFO flask.app Thread-4 : Minifying the URL
+2019-12-06 21:22:11,403 INFO flask.app Thread-4 : The input URL was already minified by us
+2019-12-06 21:22:11,405 INFO flask.app Thread-4 : Redirecting to the minified URL
+2019-12-06 21:22:11,414 ERROR flask.app Thread-4 : Exception occured when minifying the URL
+2019-12-06 21:22:11,416 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 21:22:11] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 21:22:11,547 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 21:22:11,557 INFO flask.app Thread-5 : Exception occured when redirecting to the long URL
+2019-12-06 21:22:11,558 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 21:22:11] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:22:16,265 INFO flask.app Thread-6 : Redirecting to the long URL
+2019-12-06 21:22:16,277 INFO flask.app Thread-6 : Exception occured when redirecting to the long URL
+2019-12-06 21:22:16,278 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 21:22:16] "GET /gffsdg HTTP/1.1" 200 -
+2019-12-06 21:22:16,320 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-06 21:22:16,332 INFO flask.app Thread-7 : Exception occured when redirecting to the long URL
+2019-12-06 21:22:16,332 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 21:22:16] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:29:30,355 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 21:29:30,356 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:29:31,213 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:29:31,220 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:29:45,314 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 21:29:45] "GET /stats HTTP/1.1" 500 -
+2019-12-06 21:29:45,372 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 21:29:45] "GET /stats?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 21:29:45,375 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 21:29:45] "GET /stats?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 21:29:45,375 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 21:29:45] "GET /stats?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 21:29:45,547 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 21:29:45] "GET /stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 21:29:45,576 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 21:29:45] "GET /stats?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 21:29:45,616 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 21:29:45] "GET /stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 21:30:55,182 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 21:30:55,183 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:30:56,036 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:30:56,043 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:31:19,701 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 21:31:19] "GET /stats HTTP/1.1" 500 -
+2019-12-06 21:31:19,765 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 21:31:19] "GET /stats?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 21:31:19,766 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 21:31:19] "GET /stats?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 21:31:19,766 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 21:31:19] "GET /stats?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 21:31:19,944 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 21:31:19] "GET /stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 21:31:19,972 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 21:31:19] "GET /stats?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 21:49:31,304 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 21:49:31,305 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:49:32,220 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:49:32,227 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:49:52,204 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 21:49:52,438 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 21:49:52] "GET / HTTP/1.1" 200 -
+2019-12-06 21:49:52,650 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 21:49:52,702 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 21:49:52,704 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 21:49:52] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:49:58,917 INFO flask.app Thread-4 : Minifying the URL
+2019-12-06 21:49:58,926 INFO flask.app Thread-4 : The input URL was already minified by us
+2019-12-06 21:49:58,930 INFO flask.app Thread-4 : Redirecting to the minified URL
+2019-12-06 21:49:58,937 ERROR flask.app Thread-4 : Exception occured when minifying the URL
+2019-12-06 21:49:58,937 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 21:49:58] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 21:49:59,060 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 21:49:59,068 INFO flask.app Thread-5 : Exception occured when redirecting to the long URL
+2019-12-06 21:49:59,068 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 21:49:59] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:53:08,798 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 21:53:08,799 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:53:09,770 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:53:09,783 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:53:19,020 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 21:53:19,237 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 21:53:19] "GET / HTTP/1.1" 200 -
+2019-12-06 21:53:19,453 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 21:53:19,502 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 21:53:19,503 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 21:53:19] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:53:22,975 INFO flask.app Thread-4 : Loading the Home Page
+2019-12-06 21:53:23,146 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 21:53:23] "GET / HTTP/1.1" 200 -
+2019-12-06 21:53:23,179 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 21:53:23,197 INFO flask.app Thread-5 : Exception occured when redirecting to the long URL
+2019-12-06 21:53:23,198 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 21:53:23] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:53:26,044 INFO flask.app Thread-6 : Loading the Home Page
+2019-12-06 21:53:26,236 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 21:53:26] "GET / HTTP/1.1" 200 -
+2019-12-06 21:53:26,301 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-06 21:53:26,317 INFO flask.app Thread-7 : Exception occured when redirecting to the long URL
+2019-12-06 21:53:26,318 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 21:53:26] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:53:28,346 INFO flask.app Thread-8 : Loading the Home Page
+2019-12-06 21:53:28,650 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 21:53:28] "GET / HTTP/1.1" 200 -
+2019-12-06 21:53:28,686 INFO flask.app Thread-9 : Redirecting to the long URL
+2019-12-06 21:53:28,703 INFO flask.app Thread-9 : Exception occured when redirecting to the long URL
+2019-12-06 21:53:28,704 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 21:53:28] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:54:29,601 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 21:54:29,602 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:54:30,623 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:54:30,636 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:56:10,257 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 21:56:10,396 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:56:11,468 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:56:11,478 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:56:22,749 INFO flask.app Thread-2 : Loading the Home Page
+2019-12-06 21:56:22,988 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 21:56:22] "GET / HTTP/1.1" 200 -
+2019-12-06 21:56:23,210 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 21:56:23,257 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 21:56:23,258 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 21:56:23] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:56:26,257 INFO flask.app Thread-4 : Minifying the URL
+2019-12-06 21:56:26,271 INFO flask.app Thread-4 : The input URL was already minified by us
+2019-12-06 21:56:26,274 INFO flask.app Thread-4 : Redirecting to the minified URL
+2019-12-06 21:56:26,283 ERROR flask.app Thread-4 : Exception occured when minifying the URL
+2019-12-06 21:56:26,285 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 21:56:26] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 21:56:26,424 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 21:56:26,436 INFO flask.app Thread-5 : Exception occured when redirecting to the long URL
+2019-12-06 21:56:26,436 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 21:56:26] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:56:37,330 INFO flask.app Thread-6 : Redirecting to the long URL
+2019-12-06 21:56:37,342 INFO flask.app Thread-6 : Exception occured when redirecting to the long URL
+2019-12-06 21:56:37,343 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 21:56:37] "GET /dsfdsf HTTP/1.1" 200 -
+2019-12-06 21:56:37,476 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-06 21:56:37,483 INFO flask.app Thread-7 : Exception occured when redirecting to the long URL
+2019-12-06 21:56:37,484 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 21:56:37] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:56:43,681 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 21:56:43] "GET /stats HTTP/1.1" 500 -
+2019-12-06 21:56:43,712 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 21:56:43] "GET /stats?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 21:56:43,725 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Dec/2019 21:56:43] "GET /stats?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 21:56:43,726 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Dec/2019 21:56:43] "GET /stats?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 21:56:43,870 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Dec/2019 21:56:43] "GET /stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 21:56:43,904 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Dec/2019 21:56:43] "GET /stats?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 21:58:16,509 INFO flask.app Thread-14 : Loading the Home Page
+2019-12-06 21:58:16,808 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Dec/2019 21:58:16] "GET / HTTP/1.1" 200 -
+2019-12-06 21:58:16,882 INFO flask.app Thread-15 : Redirecting to the long URL
+2019-12-06 21:58:16,936 INFO flask.app Thread-15 : Exception occured when redirecting to the long URL
+2019-12-06 21:58:16,938 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Dec/2019 21:58:16] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 21:59:17,234 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 21:59:17,361 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 21:59:18,397 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 21:59:18,406 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 21:59:34,167 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 21:59:34,285 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 22:00:22,280 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 22:00:22,281 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 22:00:23,205 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 22:00:23,213 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 22:00:27,726 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 22:00:27] "GET /api/stats HTTP/1.1" 500 -
+2019-12-06 22:00:27,788 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 22:00:27] "GET /api/stats?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 22:00:27,788 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 22:00:27] "GET /api/stats?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 22:00:27,789 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 22:00:27] "GET /api/stats?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 22:00:27,980 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 22:00:27] "GET /api/stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 22:00:28,010 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 22:00:28] "GET /api/stats?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 22:00:28,075 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 22:00:28] "GET /api/stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 22:02:14,591 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 22:02:14,720 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 22:02:15,704 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 22:02:15,713 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 22:02:20,096 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 22:02:20] "GET /api/stats HTTP/1.1" 200 -
+2019-12-06 22:02:20,125 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 22:02:20,150 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 22:02:20,151 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 22:02:20] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 22:07:32,389 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 22:07:32,392 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 22:07:33,347 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 22:07:33,358 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 22:07:35,959 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 22:07:35] "GET /api/stats HTTP/1.1" 200 -
+2019-12-06 22:07:35,989 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-06 22:07:36,016 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-06 22:07:36,016 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 22:07:36] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 22:07:40,052 INFO flask.app Thread-4 : Loading the Home Page
+2019-12-06 22:07:40,240 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 22:07:40] "GET / HTTP/1.1" 200 -
+2019-12-06 22:07:40,292 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-06 22:07:40,315 INFO flask.app Thread-5 : Exception occured when redirecting to the long URL
+2019-12-06 22:07:40,317 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 22:07:40] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 22:07:42,710 INFO flask.app Thread-6 : Minifying the URL
+2019-12-06 22:07:42,721 INFO flask.app Thread-6 : The input URL was already minified by us
+2019-12-06 22:07:42,724 INFO flask.app Thread-6 : Redirecting to the minified URL
+2019-12-06 22:07:42,735 ERROR flask.app Thread-6 : Exception occured when minifying the URL
+2019-12-06 22:07:42,735 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 22:07:42] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-06 22:07:42,872 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-06 22:07:42,881 INFO flask.app Thread-7 : Exception occured when redirecting to the long URL
+2019-12-06 22:07:42,882 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 22:07:42] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 22:07:48,704 INFO flask.app Thread-8 : Redirecting to the long URL
+2019-12-06 22:07:48,713 INFO flask.app Thread-8 : Exception occured when redirecting to the long URL
+2019-12-06 22:07:48,715 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 22:07:48] "GET /dsav HTTP/1.1" 200 -
+2019-12-06 22:07:48,748 INFO flask.app Thread-9 : Redirecting to the long URL
+2019-12-06 22:07:48,756 INFO flask.app Thread-9 : Exception occured when redirecting to the long URL
+2019-12-06 22:07:48,756 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Dec/2019 22:07:48] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-06 22:19:15,574 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 22:19:15,575 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 22:19:16,450 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 22:19:16,457 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 22:54:49,955 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-06 22:54:50,188 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 22:56:08,141 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-06 22:56:08,142 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-06 22:56:16,724 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-06 22:56:16,747 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-06 22:56:22,819 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Dec/2019 22:56:22] "GET /api/stats HTTP/1.1" 500 -
+2019-12-06 22:56:23,019 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Dec/2019 22:56:23] "GET /api/stats?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-06 22:56:23,021 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Dec/2019 22:56:23] "GET /api/stats?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-06 22:56:23,023 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Dec/2019 22:56:23] "GET /api/stats?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-06 22:56:23,522 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Dec/2019 22:56:23] "GET /api/stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-06 22:56:23,592 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Dec/2019 22:56:23] "GET /api/stats?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-06 22:56:23,692 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Dec/2019 22:56:23] "GET /api/stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-07 14:15:05,059 INFO flask.app Thread-9 : Redirecting to the long URL
+2019-12-07 14:15:05,244 INFO flask.app Thread-9 : Exception occured when redirecting to the long URL
+2019-12-07 14:15:05,247 INFO werkzeug Thread-9 : 127.0.0.1 - - [07/Dec/2019 14:15:05] "GET /bert3df HTTP/1.1" 200 -
+2019-12-07 14:15:05,379 INFO flask.app Thread-10 : Redirecting to the long URL
+2019-12-07 14:15:05,393 INFO flask.app Thread-10 : Exception occured when redirecting to the long URL
+2019-12-07 14:15:05,394 INFO werkzeug Thread-10 : 127.0.0.1 - - [07/Dec/2019 14:15:05] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:52:04,695 INFO werkzeug Thread-12 : 127.0.0.1 - - [07/Dec/2019 16:52:04] "GET /api/minify/www.google.com HTTP/1.1" 404 -
+2019-12-07 16:52:04,823 INFO flask.app Thread-13 : Redirecting to the long URL
+2019-12-07 16:52:04,835 INFO flask.app Thread-13 : Exception occured when redirecting to the long URL
+2019-12-07 16:52:04,837 INFO werkzeug Thread-13 : 127.0.0.1 - - [07/Dec/2019 16:52:04] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:53:12,473 INFO werkzeug Thread-14 : 127.0.0.1 - - [07/Dec/2019 16:53:12] "GET /api/minify/?url=www.google.com HTTP/1.1" 404 -
+2019-12-07 16:53:12,616 INFO flask.app Thread-15 : Redirecting to the long URL
+2019-12-07 16:53:12,624 INFO flask.app Thread-15 : Exception occured when redirecting to the long URL
+2019-12-07 16:53:12,624 INFO werkzeug Thread-15 : 127.0.0.1 - - [07/Dec/2019 16:53:12] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:53:55,974 INFO flask.app Thread-16 : Minifying the URL
+2019-12-07 16:53:56,000 INFO flask.app Thread-16 : The input URL was already minified by us
+2019-12-07 16:53:56,009 INFO flask.app Thread-16 : Redirecting to the minified URL
+2019-12-07 16:53:56,017 INFO flask.app Thread-18 : Redirecting to the long URL
+2019-12-07 16:53:56,217 INFO flask.app Thread-18 : Redirection to the long URL complete
+2019-12-07 16:53:56,219 INFO werkzeug Thread-18 : 127.0.0.1 - - [07/Dec/2019 16:53:56] "GET /2ert3df HTTP/1.1" 200 -
+2019-12-07 16:53:56,222 INFO werkzeug Thread-16 : 127.0.0.1 - - [07/Dec/2019 16:53:56] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-07 16:53:56,441 INFO flask.app Thread-17 : Redirecting to the long URL
+2019-12-07 16:53:56,457 INFO flask.app Thread-17 : Exception occured when redirecting to the long URL
+2019-12-07 16:53:56,458 INFO werkzeug Thread-17 : 127.0.0.1 - - [07/Dec/2019 16:53:56] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:54:38,329 INFO werkzeug Thread-19 : 127.0.0.1 - - [07/Dec/2019 16:54:38] "GET /api/minify/?url=www.google.com HTTP/1.1" 404 -
+2019-12-07 16:54:38,480 INFO flask.app Thread-20 : Redirecting to the long URL
+2019-12-07 16:54:38,489 INFO flask.app Thread-20 : Exception occured when redirecting to the long URL
+2019-12-07 16:54:38,490 INFO werkzeug Thread-20 : 127.0.0.1 - - [07/Dec/2019 16:54:38] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:54:42,481 INFO werkzeug Thread-21 : 127.0.0.1 - - [07/Dec/2019 16:54:42] "GET /api/minify/?url=www.google.com HTTP/1.1" 404 -
+2019-12-07 16:54:42,503 INFO flask.app Thread-22 : Redirecting to the long URL
+2019-12-07 16:54:42,514 INFO flask.app Thread-22 : Exception occured when redirecting to the long URL
+2019-12-07 16:54:42,515 INFO werkzeug Thread-22 : 127.0.0.1 - - [07/Dec/2019 16:54:42] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:54:43,381 INFO werkzeug Thread-23 : 127.0.0.1 - - [07/Dec/2019 16:54:43] "GET /api/minify/?url=www.google.com HTTP/1.1" 404 -
+2019-12-07 16:54:43,405 INFO flask.app Thread-24 : Redirecting to the long URL
+2019-12-07 16:54:43,415 INFO flask.app Thread-24 : Exception occured when redirecting to the long URL
+2019-12-07 16:54:43,416 INFO werkzeug Thread-24 : 127.0.0.1 - - [07/Dec/2019 16:54:43] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:54:50,765 INFO werkzeug Thread-25 : 127.0.0.1 - - [07/Dec/2019 16:54:50] "GET /api/minify/?url=www.google.com HTTP/1.1" 404 -
+2019-12-07 16:54:50,792 INFO flask.app Thread-26 : Redirecting to the long URL
+2019-12-07 16:54:50,803 INFO flask.app Thread-26 : Exception occured when redirecting to the long URL
+2019-12-07 16:54:50,805 INFO werkzeug Thread-26 : 127.0.0.1 - - [07/Dec/2019 16:54:50] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:55:00,972 INFO werkzeug Thread-27 : 127.0.0.1 - - [07/Dec/2019 16:55:00] "GET /api/minify/?url=https://www.google.com HTTP/1.1" 404 -
+2019-12-07 16:55:01,005 INFO flask.app Thread-28 : Redirecting to the long URL
+2019-12-07 16:55:01,018 INFO flask.app Thread-28 : Exception occured when redirecting to the long URL
+2019-12-07 16:55:01,019 INFO werkzeug Thread-28 : 127.0.0.1 - - [07/Dec/2019 16:55:01] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 16:55:24,801 INFO flask.app Thread-29 : Minifying the URL
+2019-12-07 16:55:24,817 INFO flask.app Thread-29 : The input URL was already minified by us
+2019-12-07 16:55:24,819 INFO flask.app Thread-29 : Redirecting to the minified URL
+2019-12-07 16:55:24,821 INFO flask.app Thread-31 : Redirecting to the long URL
+2019-12-07 16:55:24,971 INFO flask.app Thread-31 : Redirection to the long URL complete
+2019-12-07 16:55:24,976 INFO werkzeug Thread-31 : 127.0.0.1 - - [07/Dec/2019 16:55:24] "GET /2ert3df HTTP/1.1" 200 -
+2019-12-07 16:55:24,980 INFO werkzeug Thread-29 : 127.0.0.1 - - [07/Dec/2019 16:55:24] "GET /api/minify?url=www.google.com HTTP/1.1" 200 -
+2019-12-07 16:55:25,221 INFO flask.app Thread-30 : Redirecting to the long URL
+2019-12-07 16:55:25,238 INFO flask.app Thread-30 : Exception occured when redirecting to the long URL
+2019-12-07 16:55:25,239 INFO werkzeug Thread-30 : 127.0.0.1 - - [07/Dec/2019 16:55:25] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 17:05:38,524 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-07 17:05:39,057 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-07 17:05:45,717 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-07 17:05:45,731 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-07 17:06:06,136 INFO flask.app Thread-2 : Minifying the URL
+2019-12-07 17:06:06,260 INFO flask.app Thread-2 : Minification complete
+2019-12-07 17:06:06,262 INFO flask.app Thread-2 : Updating the Dataset
+2019-12-07 17:06:06,304 INFO flask.app Thread-2 : Dataset update complete
+2019-12-07 17:06:06,304 INFO flask.app Thread-2 : Redirecting to the minified URL
+2019-12-07 17:06:06,306 ERROR flask.app Thread-2 : Exception occured when minifying the URL
+2019-12-07 17:06:06,306 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2019 17:06:06] "GET /api/minify?url=https://www.google.com HTTP/1.1" 200 -
+2019-12-07 17:06:09,717 INFO flask.app Thread-3 : Minifying the URL
+2019-12-07 17:06:09,728 INFO flask.app Thread-3 : Minification complete
+2019-12-07 17:06:09,729 INFO flask.app Thread-3 : Updating the Dataset
+2019-12-07 17:06:09,763 INFO flask.app Thread-3 : Dataset update complete
+2019-12-07 17:06:09,764 INFO flask.app Thread-3 : Redirecting to the minified URL
+2019-12-07 17:06:09,764 ERROR flask.app Thread-3 : Exception occured when minifying the URL
+2019-12-07 17:06:09,765 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2019 17:06:09] "GET /api/minify?url=https://www.google.com/search?ei=9cfrXeD_MfHhgwey5bGoDw&q=how+to+find+current+data+in+python&oq=how+to+find+current+data+in+python&gs_l=psy-ab.3..0i22i10i30l2.1251654.1410784..1411075...4.0..0.234.2275.33j4j1......0....1..gws-wiz.......0i273j0j0i67j0i22i30.HWnma5ExJ8U&ved=0ahUKEwigzprf76PmAhXx8OAKHbJyDPUQ4dUDCAs&uact=5 HTTP/1.1" 200 -
+2019-12-07 17:06:09,916 INFO flask.app Thread-4 : Redirecting to the long URL
+2019-12-07 17:06:09,924 INFO flask.app Thread-4 : Exception occured when redirecting to the long URL
+2019-12-07 17:06:09,925 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2019 17:06:09] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 17:06:55,300 INFO flask.app Thread-5 : Minifying the URL
+2019-12-07 17:06:55,309 INFO flask.app Thread-5 : Minification complete
+2019-12-07 17:06:55,310 INFO flask.app Thread-5 : Updating the Dataset
+2019-12-07 17:06:55,333 INFO flask.app Thread-5 : Dataset update complete
+2019-12-07 17:06:55,333 INFO flask.app Thread-5 : Redirecting to the minified URL
+2019-12-07 17:06:55,333 ERROR flask.app Thread-5 : Exception occured when minifying the URL
+2019-12-07 17:06:55,334 INFO werkzeug Thread-5 : 127.0.0.1 - - [07/Dec/2019 17:06:55] "GET /api/minify?url=https://www.google.com/search?ei=9cfrXeD_MfHhgwey5bGoDw&q=how+to+find+current+data+in+python&oq=how+to+find+current+data+in+python&gs_l=psy-ab.3..0i22i10i30l2.1251654.1410784..1411075...4.0..0.234.2275.33j4j1......0....1..gws-wiz.......0i273j0j0i67j0i22i30.HWnma5ExJ8U&ved=0ahUKEwigzprf76PmAhXx8OAKHbJyDPUQ4dUDCAs&uact=5 HTTP/1.1" 200 -
+2019-12-07 17:06:55,380 INFO flask.app Thread-6 : Redirecting to the long URL
+2019-12-07 17:06:55,389 INFO flask.app Thread-6 : Exception occured when redirecting to the long URL
+2019-12-07 17:06:55,390 INFO werkzeug Thread-6 : 127.0.0.1 - - [07/Dec/2019 17:06:55] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 17:17:02,309 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fabrikProject/restAPIlatest.py', reloading
+2019-12-07 17:17:02,549 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-07 17:17:05,577 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-07 17:17:05,585 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
