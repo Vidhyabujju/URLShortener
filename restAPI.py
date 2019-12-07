@@ -122,7 +122,7 @@ class URL_Redirection(Resource):
             url = "http://127.0.0.1:5000/"+key
             if getattr(df4, 'Short').isin([url]).any() :
                 val = df4.loc[df4['Short'] == url, 'Long'].item()
-                webbrowser.open(val)
+                webbrowser.open(val,new=0)
                 app.logger.info('Redirection to the long URL complete')
                 return (val)
             else:

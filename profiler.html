@@ -18,8 +18,8 @@ header {
 }
 </style>
 <header>
-<h2> STATISTICS REPRESENTATION</h2>
-<a href="index.html">Back</a>
+<h2> REPRÉSENTATION STATISTIQUE</h2>
+<a href="index.html">Accueil</a>
 </header>
 
 
@@ -35,18 +35,18 @@ header {
         var data = google.visualization.arrayToDataTable([
           ['date',    'ncalls', 'tottime',   'totpercall',  'cumtime'],
           ['04/12/19',  989,      0,          0,             0],
-          ['05/12/19',  796,      100,        0,             100],
-          ['07/12/19',  989,      0,          0,             0],
-          ['04/12/19',  989,      100,        0,             100],
+          ['04/12/19',  796,      100,        0,             100],
+          ['05/12/19',  989,      0,          0,             0],
+          ['06/12/19',  989,      100,        0,             100],
           ['06/12/19',  989,      300,        0,             900],
-	  ['06/12/19',  989,      300,        0,             600],
-	  ['06/12/19',  989,      200,        0,             300],
-	  ['06/12/19',  990,      0,          0,             0]
+	  ['07/12/19',  989,      300,        0,             600],
+	  ['07/12/19',  989,      200,        0,             300],
+	  ['07/12/19',  990,      0,          0,             0]
         ]);
 
         var options = {
-          title : 'Statistics on the hits on minified url and the request for minifying an URL',
-          vAxis: {title: 'Profiling'},
+          title : 'Statistiques sur les hits sur les URL réduites et les demandes de minify une URL',
+          vAxis: {title: 'Profilage'},
           hAxis: {title: 'Date'},
           seriesType: 'bars',
           series: {3: {type: 'line'}}        };
@@ -65,7 +65,7 @@ header {
         ]);
 
         var options = {
-          title: 'URL Minification requests per day'
+          title: 'Minify les demandes par jour'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -77,11 +77,11 @@ header {
 
 </head>
 <body>
-<h4> Column Explanation </h4>
-<p>  ncalls	: for the number of calls</p>
-<p>  tot time	: for the total time spent in the given function (and excluding time made in calls to sub-functions)</p>
-<p>  percall	: is the quotient of tottime divided by ncalls</p>
-<p>  cumtime	: is the cumulative time spent in this and all subfunctions (from invocation till exit). This figure is accurate even for recursive functions.</p>
+<h4> Explication de la colonne </h4>
+<p>  ncalls	: pour le nombre d'appels</p>
+<p>  tot time	: pour le temps total passé dans la fonction donnée (et à l'exclusion du temps passé dans les appels aux sous-fonctions)</p>
+<p>  percall	: est le quotient de l'heure divisé par ncalls</p>
+<p>  cumtime	: est le temps cumulé passé dans cette sous-fonction et dans toutes les sous-fonctions (de l'invocation à la sortie). Ce chiffre est précis même pour les fonctions récursives.</p>
 <table class="columns">
       <tr>
         <div id="chart_div" style="width: 1200px; height: 700px;"></div>
