@@ -10,8 +10,6 @@ try:
     import urllib.request, string, random, webbrowser, pandas, logging
     from urllib.parse import urlparse
     import cProfile, pstats, math, io
-    import matplotlib.pyplot as plt
-    import seaborn as sns
     from datetime import datetime
 
 except ImportError:
@@ -151,19 +149,7 @@ class URL_Redirection(Resource):
     ps.disable()
 ##    writetoCSV('profiler-output.csv')
     
-class statistics(Resource):
-
-    ps.enable()
-    def get(self):
-        v = pandas.read_csv('profiler-output.csv')
-        return v.hist(column=['ncalls','tottime','percall','cumtime','percall'],figsize=(20,20))
-        #return ("success")
-
-    ps.disable()
-##    writetoCSV('profiler-output.csv')
-    
 api.add_resource(display, '/')
-api.add_resource(statistics, '/api/stats')  
 api.add_resource(URL_Minifier, '/api/minify')  
 api.add_resource(URL_Redirection, '/<string:key>')
 
