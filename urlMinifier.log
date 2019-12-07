@@ -944,3 +944,23 @@ INFO:werkzeug: * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fa
 2019-12-07 23:14:15,182 INFO werkzeug MainThread :  * Restarting with stat
 2019-12-07 23:14:16,162 WARNING werkzeug MainThread :  * Debugger is active!
 2019-12-07 23:14:16,169 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-07 23:24:47,311 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-07 23:24:47,312 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-07 23:24:48,211 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-07 23:24:48,218 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-07 23:25:49,079 INFO flask.app Thread-2 : Minifying the URL
+2019-12-07 23:25:49,136 INFO flask.app Thread-2 : Minification complete
+2019-12-07 23:25:49,139 INFO flask.app Thread-2 : Updating the Dataset
+2019-12-07 23:25:49,178 INFO flask.app Thread-2 : Dataset update complete
+2019-12-07 23:25:49,178 INFO flask.app Thread-2 : Redirecting to the minified URL
+2019-12-07 23:25:49,189 INFO flask.app Thread-4 : Redirecting to the long URL
+2019-12-07 23:25:49,197 INFO flask.app Thread-4 : Exception occured when redirecting to the long URL
+2019-12-07 23:25:49,198 INFO werkzeug Thread-4 : 127.0.0.1 - - [07/Dec/2019 23:25:49] "GET /3Wx9Ha HTTP/1.1" 200 -
+2019-12-07 23:25:49,199 INFO werkzeug Thread-2 : 127.0.0.1 - - [07/Dec/2019 23:25:49] "GET /api/minify?url=https://ww.google.com HTTP/1.1" 200 -
+2019-12-07 23:25:49,326 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-07 23:25:49,334 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-07 23:25:49,335 INFO werkzeug Thread-3 : 127.0.0.1 - - [07/Dec/2019 23:25:49] "GET /favicon.ico HTTP/1.1" 200 -
+2019-12-07 23:26:15,355 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-07 23:26:15,475 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-07 23:26:16,461 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-07 23:26:16,469 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
