@@ -9,8 +9,7 @@
 # How to run?
  1. Execute the application with the following command
 	$ python restAPI.py
- 2. In a new command window, execute the following command to see the application
-        $ curl http://127.0.0.1:5000
+ 2. Open index.html file 
 
 # Existing issues
   1. Memory leaks to be handled (since no hosting server locally) 
