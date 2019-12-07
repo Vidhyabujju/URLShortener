@@ -6,7 +6,7 @@
  Flask
  Flask-restful
 
-# Project description
+# How to run?
  1. Execute the application with the following command
 	$ python restAPI.py
  2. In a new command window, execute the following command to see the application
