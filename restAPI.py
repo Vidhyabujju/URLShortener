@@ -4,7 +4,8 @@
 # In[3]:
 
 try:   
-    from flask import Flask, request, abort
+    from flask import Flask, request, abort, render_template
+    from flask_cors import CORS
     from flask_restful import Resource, Api
     from openpyxl import load_workbook
     import urllib.request, string, random, webbrowser, pandas, logging
@@ -18,8 +19,17 @@ except ImportError:
 ps = cProfile.Profile()
 
 app = Flask(__name__)
+CORS(app)
 app.config['PROPAGATE_EXCEPTIONS'] = True
 api = Api(app)
+
+@app.route('/')
+def render_static():
+    return render_template('index.html')
+
+@app.route('/statistics')
+def statistics():
+    return render_template('profiler.html')
 
 logging.basicConfig(filename='urlMinifier.log', level=logging.NOTSET, format='%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
@@ -83,28 +93,36 @@ class URL_Minifier(Resource):
     ps.enable()
     def get(self):
         app.logger.info('Minifying the URL')
-        url1 = request.args['url']
-        o = urlparse(url1)
+        url1 = request.args.to_dict()
+        url2=''
+        for k, v in url1.items() :
+            v=v.replace("&","%26")
+            v=v.replace(",","%2C")
+            url2=url2+k+'='+v+'&'
+        url=url2[:-1]
+        url=url2[4:]
+        url=url.replace(" ","+")
+        o = urlparse(url)
         if (o.scheme == "") :
-            url1 = "https://"+url1
+            url = "https://"+url
         try:
             df4 = pandas.read_excel('check.xlsx')
-            if getattr(df4,'Long').isin([url1]).any() :
+            if getattr(df4,'Long').isin([url]).any() :
                 app.logger.info('The input URL was already minified by us')
-                minifier = df4.loc[df4['Long'] == url1, 'Short'].item()
+                minifier = df4.loc[df4['Long'] == url, 'Short'].item()
                 app.logger.info('Redirecting to the minified URL')
-                urllib.request.urlopen(minifier)
-                return "Minification already done : " + minifier
+                #urllib.request.urlopen(minifier)
+                return "Minification déjà effectuée. URL minifiée ==" + minifier
             else :
                 minifier = shorten_url()
                 app.logger.info('Minification complete')
-                df1 = pandas.DataFrame({"Date" : [datetime.date(datetime.now())],"Long" : [url1],"Short" : [minifier]})
+                df1 = pandas.DataFrame({"Date" : [datetime.date(datetime.now())],"Long" : [url],"Short" : [minifier]})
                 app.logger.info('Updating the Dataset')
                 append_df_to_excel('check.xlsx',df1)
                 app.logger.info('Dataset update complete')
                 app.logger.info('Redirecting to the minified URL')
-                urllib.request.urlopen(minifier)
-                return "Please find the minified URL : " + minifier
+                #urllib.request.urlopen(minifier)
+                return "Veuillez trouver l'URL minifiée ==" + minifier
         except Exception as e:
             app.logger.error('Exception occured when minifying the URL')
             print(e)
@@ -122,7 +140,7 @@ class URL_Redirection(Resource):
             url = "http://127.0.0.1:5000/"+key
             if getattr(df4, 'Short').isin([url]).any() :
                 val = df4.loc[df4['Short'] == url, 'Long'].item()
-                webbrowser.open(val,new=0)
+                webbrowser.open_new_tab(val)
                 app.logger.info('Redirection to the long URL complete')
                 return (val)
             else:
