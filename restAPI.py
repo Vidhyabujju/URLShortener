@@ -95,7 +95,7 @@ def shorten_url():
 class URL_Minifier(Resource):
 
     ps.enable()
-    def get(self):
+    def post(self):
         app.logger.info('Minifying the URL')
         url1 = request.args.to_dict()
         url2=''
@@ -138,7 +138,7 @@ class URL_Minifier(Resource):
 class URL_Redirection(Resource):
 
     ps.enable()
-    def get(self,key):
+    def post(self,key):
         try:
             app.logger.info('Redirecting to the long URL')
             df4 = pandas.read_excel('check.xlsx')

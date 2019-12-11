@@ -2569,3 +2569,24 @@ INFO:werkzeug: * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fa
 2019-12-11 16:39:50,168 INFO flask.app Thread-178 : Redirecting to the long URL
 2019-12-11 16:39:50,182 INFO flask.app Thread-178 : Redirection to the long URL complete
 2019-12-11 16:39:50,184 INFO werkzeug Thread-178 : 127.0.0.1 - - [11/Dec/2019 16:39:50] "GET /api/RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:45:05,682 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-11 16:45:05,827 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-11 16:45:07,136 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-11 16:45:07,145 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-11 16:45:07,159 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2019 16:45:07] "GET / HTTP/1.1" 200 -
+2019-12-11 16:45:13,726 INFO flask.app Thread-3 : Minifying the URL
+2019-12-11 16:45:13,767 INFO flask.app Thread-3 : The input URL was already minified by us
+2019-12-11 16:45:13,769 INFO flask.app Thread-3 : Redirecting to the minified URL
+2019-12-11 16:45:13,770 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2019 16:45:13] "POST /api/minify?url=https://www.w3schools.com/python/ref_string_split.asp HTTP/1.1" 200 -
+2019-12-11 16:45:14,817 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2019 16:45:14] "GET /RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:45:14,860 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-11 16:45:14,876 INFO flask.app Thread-5 : Redirection to the long URL complete
+2019-12-11 16:45:14,877 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2019 16:45:14] "POST /api/RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:45:19,196 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2019 16:45:19] "GET /RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:45:19,290 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-11 16:45:19,311 INFO flask.app Thread-7 : Redirection to the long URL complete
+2019-12-11 16:45:19,315 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Dec/2019 16:45:19] "POST /api/RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:45:37,965 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Dec/2019 16:45:37] "GET /RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:45:38,079 INFO flask.app Thread-9 : Redirecting to the long URL
+2019-12-11 16:45:38,086 INFO flask.app Thread-9 : Redirection to the long URL complete
+2019-12-11 16:45:38,087 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Dec/2019 16:45:38] "POST /api/RjZTU1 HTTP/1.1" 200 -

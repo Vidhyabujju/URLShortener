@@ -109,7 +109,7 @@ $(document).ready(function(){
     x = document.getElementById("myText").value
     y = 'http://127.0.0.1:5000/api/minify?url='
     z = y+x
-    $.get(z,function(data, status){
+    $.post(z,function(data, status){
          document.getElementById("url").innerHTML=data;
     });
   });
