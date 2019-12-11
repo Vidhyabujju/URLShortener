@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script	
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+
+<h2>Redirecting to your Long URL</h2>
+<script>
+
+
+     x=window.location.href
+    y=x.split("/")
+    a=y.length
+    b = y[a-1]
+    z="http://127.0.0.1:5000/api/"+b
+    $.get(z,function(data, status){
+        window.location.href=data;
+    });
+
+
+
+</script>
+</body>
+</html>

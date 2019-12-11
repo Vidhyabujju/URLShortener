@@ -2145,3 +2145,427 @@ INFO:werkzeug: * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fa
 2019-12-11 13:10:50,078 INFO flask.app Thread-6 : Redirecting to the long URL
 2019-12-11 13:10:50,213 INFO flask.app Thread-6 : Redirection to the long URL complete
 2019-12-11 13:10:50,216 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2019 13:10:50] "GET /unb247 HTTP/1.1" 200 -
+2019-12-11 15:51:35,046 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-11 15:51:35,184 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-11 15:51:37,725 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-11 15:51:37,741 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-11 15:51:50,731 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-11 15:51:50,798 INFO flask.app Thread-2 : Redirection to the long URL complete
+2019-12-11 15:51:50,799 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2019 15:51:50] "GET /unb247 HTTP/1.1" 200 -
+2019-12-11 16:08:36,442 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-11 16:08:36,577 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-11 16:27:53,296 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-11 16:27:53,299 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-11 16:27:54,245 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-11 16:27:54,261 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-11 16:28:04,198 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2019 16:28:04] "GET / HTTP/1.1" 200 -
+2019-12-11 16:28:15,495 INFO flask.app Thread-4 : Minifying the URL
+2019-12-11 16:28:15,539 INFO flask.app Thread-4 : Minification complete
+2019-12-11 16:28:15,540 INFO flask.app Thread-4 : Updating the Dataset
+2019-12-11 16:28:15,572 INFO flask.app Thread-4 : Dataset update complete
+2019-12-11 16:28:15,572 INFO flask.app Thread-4 : Redirecting to the minified URL
+2019-12-11 16:28:15,572 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2019 16:28:15] "GET /api/minify?url=https://www.google.com/search?ei=yAjxXayoFamejLsPkZuS6Ao&q=how+to+find+length+of+array+in+python&oq=how+to+find+length+of+array+&gs_l=psy-ab.1.2.0l2j0i67j0l3j0i10j0l3.24429.30716..32739...0.1..0.187.1742.25j3......0....1..gws-wiz.......0i71j0i273.GF_diQiEeXY HTTP/1.1" 200 -
+2019-12-11 16:28:16,848 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2019 16:28:16] "GET /mfHLht HTTP/1.1" 500 -
+2019-12-11 16:28:16,872 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2019 16:28:16] "GET /mfHLht?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-12-11 16:28:16,873 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Dec/2019 16:28:16] "GET /mfHLht?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-12-11 16:28:16,874 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Dec/2019 16:28:16] "GET /mfHLht?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-12-11 16:28:16,977 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Dec/2019 16:28:16] "GET /mfHLht?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-11 16:28:16,993 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Dec/2019 16:28:16] "GET /mfHLht?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-12-11 16:28:17,023 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Dec/2019 16:28:17] "GET /mfHLht?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-12-11 16:29:21,706 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-11 16:29:21,871 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-11 16:29:23,164 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-11 16:29:23,175 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-11 16:29:25,107 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2019 16:29:25] "GET / HTTP/1.1" 200 -
+2019-12-11 16:29:28,928 INFO flask.app Thread-3 : Minifying the URL
+2019-12-11 16:29:28,952 INFO flask.app Thread-3 : The input URL was already minified by us
+2019-12-11 16:29:28,953 INFO flask.app Thread-3 : Redirecting to the minified URL
+2019-12-11 16:29:28,953 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2019 16:29:28] "GET /api/minify?url=https://www.google.com/search?ei=yAjxXayoFamejLsPkZuS6Ao&q=how+to+find+length+of+array+in+python&oq=how+to+find+length+of+array+&gs_l=psy-ab.1.2.0l2j0i67j0l3j0i10j0l3.24429.30716..32739...0.1..0.187.1742.25j3......0....1..gws-wiz.......0i71j0i273.GF_diQiEeXY HTTP/1.1" 200 -
+2019-12-11 16:29:30,031 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2019 16:29:30] "GET /mfHLht HTTP/1.1" 200 -
+2019-12-11 16:30:15,431 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2019 16:30:15] "GET /mfHLht HTTP/1.1" 200 -
+2019-12-11 16:30:15,497 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-11 16:30:15,518 INFO flask.app Thread-7 : Redirection to the long URL complete
+2019-12-11 16:30:15,519 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Dec/2019 16:30:15] "GET /api/mfHLht HTTP/1.1" 200 -
+2019-12-11 16:31:00,810 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Dec/2019 16:31:00] "GET / HTTP/1.1" 200 -
+2019-12-11 16:31:17,021 INFO flask.app Thread-10 : Minifying the URL
+2019-12-11 16:31:17,029 INFO flask.app Thread-10 : The input URL was already minified by us
+2019-12-11 16:31:17,030 INFO flask.app Thread-10 : Redirecting to the minified URL
+2019-12-11 16:31:17,031 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Dec/2019 16:31:17] "GET /api/minify?url=https://www.google.com/search?ei=yAjxXayoFamejLsPkZuS6Ao&q=how+to+find+length+of+array+in+python&oq=how+to+find+length+of+array+&gs_l=psy-ab.1.2.0l2j0i67j0l3j0i10j0l3.24429.30716..32739...0.1..0.187.1742.25j3......0....1..gws-wiz.......0i71j0i273.GF_diQiEeXY HTTP/1.1" 200 -
+2019-12-11 16:31:19,742 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Dec/2019 16:31:19] "GET /mfHLht HTTP/1.1" 200 -
+2019-12-11 16:31:19,781 INFO flask.app Thread-12 : Redirecting to the long URL
+2019-12-11 16:31:19,790 INFO flask.app Thread-12 : Redirection to the long URL complete
+2019-12-11 16:31:19,791 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Dec/2019 16:31:19] "GET /api/mfHLht HTTP/1.1" 200 -
+2019-12-11 16:31:33,138 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Dec/2019 16:31:33] "GET /mfHLht HTTP/1.1" 200 -
+2019-12-11 16:31:33,169 INFO flask.app Thread-14 : Redirecting to the long URL
+2019-12-11 16:31:33,182 INFO flask.app Thread-14 : Redirection to the long URL complete
+2019-12-11 16:31:33,183 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Dec/2019 16:31:33] "GET /api/mfHLht HTTP/1.1" 200 -
+2019-12-11 16:33:43,900 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Dec/2019 16:33:43] "GET / HTTP/1.1" 200 -
+2019-12-11 16:33:51,437 INFO flask.app Thread-16 : Minifying the URL
+2019-12-11 16:33:51,448 INFO flask.app Thread-16 : Minification complete
+2019-12-11 16:33:51,449 INFO flask.app Thread-16 : Updating the Dataset
+2019-12-11 16:33:51,478 INFO flask.app Thread-16 : Dataset update complete
+2019-12-11 16:33:51,478 INFO flask.app Thread-16 : Redirecting to the minified URL
+2019-12-11 16:33:51,478 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Dec/2019 16:33:51] "GET /api/minify?url=https://www.edureka.co/blog/arrays-in-python/ HTTP/1.1" 200 -
+2019-12-11 16:34:00,707 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Dec/2019 16:34:00] "GET /oXg1Zm HTTP/1.1" 200 -
+2019-12-11 16:34:00,806 INFO flask.app Thread-19 : Redirecting to the long URL
+2019-12-11 16:34:00,816 INFO flask.app Thread-19 : Redirection to the long URL complete
+2019-12-11 16:34:00,817 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Dec/2019 16:34:00] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-11 16:37:47,121 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-11 16:37:47,242 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-11 16:37:48,523 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-11 16:37:48,533 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-11 16:37:48,547 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2019 16:37:48] "GET / HTTP/1.1" 200 -
+2019-12-11 16:37:57,607 INFO flask.app Thread-3 : Minifying the URL
+2019-12-11 16:37:57,630 INFO flask.app Thread-3 : Minification complete
+2019-12-11 16:37:57,631 INFO flask.app Thread-3 : Updating the Dataset
+2019-12-11 16:37:57,657 INFO flask.app Thread-3 : Dataset update complete
+2019-12-11 16:37:57,657 INFO flask.app Thread-3 : Redirecting to the minified URL
+2019-12-11 16:37:57,658 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2019 16:37:57] "GET /api/minify?url=https://www.w3schools.com/python/ref_string_split.asp HTTP/1.1" 200 -
+2019-12-11 16:38:06,507 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2019 16:38:06] "GET /RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:38:06,633 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-11 16:38:06,641 INFO flask.app Thread-5 : Redirection to the long URL complete
+2019-12-11 16:38:06,642 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2019 16:38:06] "GET /api/RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:38:34,795 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2019 16:38:34] "GET / HTTP/1.1" 200 -
+2019-12-11 16:38:47,727 INFO flask.app Thread-8 : Minifying the URL
+2019-12-11 16:38:47,734 INFO flask.app Thread-8 : The input URL was already minified by us
+2019-12-11 16:38:47,735 INFO flask.app Thread-8 : Redirecting to the minified URL
+2019-12-11 16:38:47,736 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Dec/2019 16:38:47] "GET /api/minify?url=https://www.w3schools.com/python/ref_string_split.asp HTTP/1.1" 200 -
+2019-12-11 16:39:19,719 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Dec/2019 16:39:19] "GET / HTTP/1.1" 200 -
+2019-12-11 16:39:22,123 INFO flask.app Thread-10 : Minifying the URL
+2019-12-11 16:39:22,132 INFO flask.app Thread-10 : The input URL was already minified by us
+2019-12-11 16:39:22,133 INFO flask.app Thread-10 : Redirecting to the minified URL
+2019-12-11 16:39:22,133 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Dec/2019 16:39:22] "GET /api/minify?url=https://www.w3schools.com/python/ref_string_split.asp HTTP/1.1" 200 -
+2019-12-11 16:39:23,086 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /[object%20Window] HTTP/1.1" 200 -
+2019-12-11 16:39:23,086 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:39:23,124 INFO flask.app Thread-13 : Redirecting to the long URL
+2019-12-11 16:39:23,135 INFO flask.app Thread-13 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,136 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/[object%20Window] HTTP/1.1" 200 -
+2019-12-11 16:39:23,143 INFO flask.app Thread-14 : Redirecting to the long URL
+2019-12-11 16:39:23,161 INFO flask.app Thread-14 : Redirection to the long URL complete
+2019-12-11 16:39:23,163 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:39:23,164 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,215 INFO flask.app Thread-16 : Redirecting to the long URL
+2019-12-11 16:39:23,228 INFO flask.app Thread-16 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,229 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,278 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,337 INFO flask.app Thread-18 : Redirecting to the long URL
+2019-12-11 16:39:23,349 INFO flask.app Thread-18 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,350 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,365 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,408 INFO flask.app Thread-20 : Redirecting to the long URL
+2019-12-11 16:39:23,421 INFO flask.app Thread-20 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,422 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,435 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,470 INFO flask.app Thread-22 : Redirecting to the long URL
+2019-12-11 16:39:23,481 INFO flask.app Thread-22 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,482 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,512 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,548 INFO flask.app Thread-24 : Redirecting to the long URL
+2019-12-11 16:39:23,556 INFO flask.app Thread-24 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,557 INFO werkzeug Thread-24 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,573 INFO werkzeug Thread-25 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,610 INFO flask.app Thread-26 : Redirecting to the long URL
+2019-12-11 16:39:23,619 INFO flask.app Thread-26 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,619 INFO werkzeug Thread-26 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,631 INFO werkzeug Thread-27 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,672 INFO flask.app Thread-28 : Redirecting to the long URL
+2019-12-11 16:39:23,688 INFO flask.app Thread-28 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,689 INFO werkzeug Thread-28 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,704 INFO werkzeug Thread-29 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,737 INFO flask.app Thread-30 : Redirecting to the long URL
+2019-12-11 16:39:23,749 INFO flask.app Thread-30 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,750 INFO werkzeug Thread-30 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,766 INFO werkzeug Thread-31 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,805 INFO flask.app Thread-32 : Redirecting to the long URL
+2019-12-11 16:39:23,820 INFO flask.app Thread-32 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,821 INFO werkzeug Thread-32 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,844 INFO werkzeug Thread-33 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,889 INFO flask.app Thread-34 : Redirecting to the long URL
+2019-12-11 16:39:23,904 INFO flask.app Thread-34 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,905 INFO werkzeug Thread-34 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:23,936 INFO werkzeug Thread-35 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:23,970 INFO flask.app Thread-36 : Redirecting to the long URL
+2019-12-11 16:39:23,984 INFO flask.app Thread-36 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:23,985 INFO werkzeug Thread-36 : 127.0.0.1 - - [11/Dec/2019 16:39:23] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,003 INFO werkzeug Thread-37 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,059 INFO flask.app Thread-38 : Redirecting to the long URL
+2019-12-11 16:39:24,072 INFO flask.app Thread-38 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,073 INFO werkzeug Thread-38 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,088 INFO werkzeug Thread-39 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,124 INFO flask.app Thread-40 : Redirecting to the long URL
+2019-12-11 16:39:24,137 INFO flask.app Thread-40 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,137 INFO werkzeug Thread-40 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,155 INFO werkzeug Thread-41 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,186 INFO flask.app Thread-42 : Redirecting to the long URL
+2019-12-11 16:39:24,198 INFO flask.app Thread-42 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,199 INFO werkzeug Thread-42 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,212 INFO werkzeug Thread-43 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,256 INFO flask.app Thread-44 : Redirecting to the long URL
+2019-12-11 16:39:24,307 INFO flask.app Thread-44 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,308 INFO werkzeug Thread-44 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,330 INFO werkzeug Thread-45 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,359 INFO flask.app Thread-46 : Redirecting to the long URL
+2019-12-11 16:39:24,368 INFO flask.app Thread-46 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,369 INFO werkzeug Thread-46 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,384 INFO werkzeug Thread-47 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,416 INFO flask.app Thread-48 : Redirecting to the long URL
+2019-12-11 16:39:24,428 INFO flask.app Thread-48 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,428 INFO werkzeug Thread-48 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,444 INFO werkzeug Thread-49 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,480 INFO flask.app Thread-50 : Redirecting to the long URL
+2019-12-11 16:39:24,492 INFO flask.app Thread-50 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,493 INFO werkzeug Thread-50 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,511 INFO werkzeug Thread-51 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,552 INFO flask.app Thread-52 : Redirecting to the long URL
+2019-12-11 16:39:24,565 INFO flask.app Thread-52 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,566 INFO werkzeug Thread-52 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,584 INFO werkzeug Thread-53 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,627 INFO flask.app Thread-54 : Redirecting to the long URL
+2019-12-11 16:39:24,641 INFO flask.app Thread-54 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,642 INFO werkzeug Thread-54 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,655 INFO werkzeug Thread-55 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,686 INFO flask.app Thread-56 : Redirecting to the long URL
+2019-12-11 16:39:24,699 INFO flask.app Thread-56 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,700 INFO werkzeug Thread-56 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,723 INFO werkzeug Thread-57 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,776 INFO flask.app Thread-58 : Redirecting to the long URL
+2019-12-11 16:39:24,790 INFO flask.app Thread-58 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,791 INFO werkzeug Thread-58 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,807 INFO werkzeug Thread-59 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,850 INFO flask.app Thread-60 : Redirecting to the long URL
+2019-12-11 16:39:24,864 INFO flask.app Thread-60 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,866 INFO werkzeug Thread-60 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,883 INFO werkzeug Thread-61 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,916 INFO flask.app Thread-62 : Redirecting to the long URL
+2019-12-11 16:39:24,925 INFO flask.app Thread-62 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,926 INFO werkzeug Thread-62 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:24,942 INFO werkzeug Thread-63 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:24,972 INFO flask.app Thread-64 : Redirecting to the long URL
+2019-12-11 16:39:24,986 INFO flask.app Thread-64 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:24,987 INFO werkzeug Thread-64 : 127.0.0.1 - - [11/Dec/2019 16:39:24] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,003 INFO werkzeug Thread-65 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,036 INFO flask.app Thread-66 : Redirecting to the long URL
+2019-12-11 16:39:25,048 INFO flask.app Thread-66 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,049 INFO werkzeug Thread-66 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,070 INFO werkzeug Thread-67 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,113 INFO flask.app Thread-68 : Redirecting to the long URL
+2019-12-11 16:39:25,123 INFO flask.app Thread-68 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,124 INFO werkzeug Thread-68 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,139 INFO werkzeug Thread-69 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,168 INFO flask.app Thread-70 : Redirecting to the long URL
+2019-12-11 16:39:25,174 INFO flask.app Thread-70 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,175 INFO werkzeug Thread-70 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,189 INFO werkzeug Thread-71 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,218 INFO flask.app Thread-72 : Redirecting to the long URL
+2019-12-11 16:39:25,227 INFO flask.app Thread-72 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,228 INFO werkzeug Thread-72 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,244 INFO werkzeug Thread-73 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,273 INFO flask.app Thread-74 : Redirecting to the long URL
+2019-12-11 16:39:25,285 INFO flask.app Thread-74 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,286 INFO werkzeug Thread-74 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,296 INFO werkzeug Thread-75 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,324 INFO flask.app Thread-76 : Redirecting to the long URL
+2019-12-11 16:39:25,334 INFO flask.app Thread-76 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,335 INFO werkzeug Thread-76 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,346 INFO werkzeug Thread-77 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,376 INFO flask.app Thread-78 : Redirecting to the long URL
+2019-12-11 16:39:25,387 INFO flask.app Thread-78 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,388 INFO werkzeug Thread-78 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,398 INFO werkzeug Thread-79 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,430 INFO flask.app Thread-80 : Redirecting to the long URL
+2019-12-11 16:39:25,438 INFO flask.app Thread-80 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,439 INFO werkzeug Thread-80 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,452 INFO werkzeug Thread-81 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,491 INFO flask.app Thread-82 : Redirecting to the long URL
+2019-12-11 16:39:25,501 INFO flask.app Thread-82 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,502 INFO werkzeug Thread-82 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,514 INFO werkzeug Thread-83 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,549 INFO flask.app Thread-84 : Redirecting to the long URL
+2019-12-11 16:39:25,560 INFO flask.app Thread-84 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,561 INFO werkzeug Thread-84 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,574 INFO werkzeug Thread-85 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,697 INFO flask.app Thread-86 : Redirecting to the long URL
+2019-12-11 16:39:25,708 INFO flask.app Thread-86 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,711 INFO werkzeug Thread-86 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,783 INFO werkzeug Thread-87 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,863 INFO flask.app Thread-88 : Redirecting to the long URL
+2019-12-11 16:39:25,878 INFO flask.app Thread-88 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,879 INFO werkzeug Thread-88 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:25,908 INFO werkzeug Thread-89 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:25,971 INFO flask.app Thread-90 : Redirecting to the long URL
+2019-12-11 16:39:25,985 INFO flask.app Thread-90 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:25,986 INFO werkzeug Thread-90 : 127.0.0.1 - - [11/Dec/2019 16:39:25] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,040 INFO werkzeug Thread-91 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,100 INFO flask.app Thread-92 : Redirecting to the long URL
+2019-12-11 16:39:26,112 INFO flask.app Thread-92 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,113 INFO werkzeug Thread-92 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,129 INFO werkzeug Thread-93 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,205 INFO flask.app Thread-94 : Redirecting to the long URL
+2019-12-11 16:39:26,215 INFO flask.app Thread-94 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,216 INFO werkzeug Thread-94 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,251 INFO werkzeug Thread-95 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,332 INFO flask.app Thread-96 : Redirecting to the long URL
+2019-12-11 16:39:26,342 INFO flask.app Thread-96 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,343 INFO werkzeug Thread-96 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,367 INFO werkzeug Thread-97 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,415 INFO flask.app Thread-98 : Redirecting to the long URL
+2019-12-11 16:39:26,432 INFO flask.app Thread-98 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,433 INFO werkzeug Thread-98 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,451 INFO werkzeug Thread-99 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,487 INFO flask.app Thread-100 : Redirecting to the long URL
+2019-12-11 16:39:26,500 INFO flask.app Thread-100 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,501 INFO werkzeug Thread-100 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,519 INFO werkzeug Thread-101 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,550 INFO flask.app Thread-102 : Redirecting to the long URL
+2019-12-11 16:39:26,562 INFO flask.app Thread-102 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,563 INFO werkzeug Thread-102 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,577 INFO werkzeug Thread-103 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,649 INFO flask.app Thread-104 : Redirecting to the long URL
+2019-12-11 16:39:26,660 INFO flask.app Thread-104 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,677 INFO werkzeug Thread-104 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,697 INFO werkzeug Thread-105 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,766 INFO flask.app Thread-106 : Redirecting to the long URL
+2019-12-11 16:39:26,784 INFO flask.app Thread-106 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,786 INFO werkzeug Thread-106 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,803 INFO werkzeug Thread-107 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,839 INFO flask.app Thread-108 : Redirecting to the long URL
+2019-12-11 16:39:26,852 INFO flask.app Thread-108 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,853 INFO werkzeug Thread-108 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,869 INFO werkzeug Thread-109 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,893 INFO flask.app Thread-110 : Redirecting to the long URL
+2019-12-11 16:39:26,903 INFO flask.app Thread-110 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,904 INFO werkzeug Thread-110 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,916 INFO werkzeug Thread-111 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:26,943 INFO flask.app Thread-112 : Redirecting to the long URL
+2019-12-11 16:39:26,956 INFO flask.app Thread-112 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:26,957 INFO werkzeug Thread-112 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:26,972 INFO werkzeug Thread-113 : 127.0.0.1 - - [11/Dec/2019 16:39:26] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,005 INFO flask.app Thread-114 : Redirecting to the long URL
+2019-12-11 16:39:27,017 INFO flask.app Thread-114 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,018 INFO werkzeug Thread-114 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,029 INFO werkzeug Thread-115 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,060 INFO flask.app Thread-116 : Redirecting to the long URL
+2019-12-11 16:39:27,069 INFO flask.app Thread-116 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,070 INFO werkzeug Thread-116 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,082 INFO werkzeug Thread-117 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,120 INFO flask.app Thread-118 : Redirecting to the long URL
+2019-12-11 16:39:27,134 INFO flask.app Thread-118 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,135 INFO werkzeug Thread-118 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,152 INFO werkzeug Thread-119 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,186 INFO flask.app Thread-120 : Redirecting to the long URL
+2019-12-11 16:39:27,196 INFO flask.app Thread-120 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,197 INFO werkzeug Thread-120 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,211 INFO werkzeug Thread-121 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,248 INFO flask.app Thread-122 : Redirecting to the long URL
+2019-12-11 16:39:27,256 INFO flask.app Thread-122 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,257 INFO werkzeug Thread-122 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,278 INFO werkzeug Thread-123 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,318 INFO flask.app Thread-124 : Redirecting to the long URL
+2019-12-11 16:39:27,329 INFO flask.app Thread-124 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,330 INFO werkzeug Thread-124 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,340 INFO werkzeug Thread-125 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,372 INFO flask.app Thread-126 : Redirecting to the long URL
+2019-12-11 16:39:27,382 INFO flask.app Thread-126 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,383 INFO werkzeug Thread-126 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,398 INFO werkzeug Thread-127 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,429 INFO flask.app Thread-128 : Redirecting to the long URL
+2019-12-11 16:39:27,437 INFO flask.app Thread-128 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,438 INFO werkzeug Thread-128 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,452 INFO werkzeug Thread-129 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,486 INFO flask.app Thread-130 : Redirecting to the long URL
+2019-12-11 16:39:27,496 INFO flask.app Thread-130 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,498 INFO werkzeug Thread-130 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,511 INFO werkzeug Thread-131 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,542 INFO flask.app Thread-132 : Redirecting to the long URL
+2019-12-11 16:39:27,553 INFO flask.app Thread-132 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,553 INFO werkzeug Thread-132 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,565 INFO werkzeug Thread-133 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,596 INFO flask.app Thread-134 : Redirecting to the long URL
+2019-12-11 16:39:27,604 INFO flask.app Thread-134 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,605 INFO werkzeug Thread-134 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,619 INFO werkzeug Thread-135 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,655 INFO flask.app Thread-136 : Redirecting to the long URL
+2019-12-11 16:39:27,667 INFO flask.app Thread-136 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,668 INFO werkzeug Thread-136 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,680 INFO werkzeug Thread-137 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,711 INFO flask.app Thread-138 : Redirecting to the long URL
+2019-12-11 16:39:27,722 INFO flask.app Thread-138 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,723 INFO werkzeug Thread-138 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,736 INFO werkzeug Thread-139 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,775 INFO flask.app Thread-140 : Redirecting to the long URL
+2019-12-11 16:39:27,785 INFO flask.app Thread-140 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,786 INFO werkzeug Thread-140 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,797 INFO werkzeug Thread-141 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,829 INFO flask.app Thread-142 : Redirecting to the long URL
+2019-12-11 16:39:27,838 INFO flask.app Thread-142 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,839 INFO werkzeug Thread-142 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,852 INFO werkzeug Thread-143 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,883 INFO flask.app Thread-144 : Redirecting to the long URL
+2019-12-11 16:39:27,889 INFO flask.app Thread-144 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,890 INFO werkzeug Thread-144 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,906 INFO werkzeug Thread-145 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,940 INFO flask.app Thread-146 : Redirecting to the long URL
+2019-12-11 16:39:27,951 INFO flask.app Thread-146 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:27,951 INFO werkzeug Thread-146 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:27,963 INFO werkzeug Thread-147 : 127.0.0.1 - - [11/Dec/2019 16:39:27] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:27,989 INFO flask.app Thread-148 : Redirecting to the long URL
+2019-12-11 16:39:28,002 INFO flask.app Thread-148 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,003 INFO werkzeug Thread-148 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,015 INFO werkzeug Thread-149 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:28,046 INFO flask.app Thread-150 : Redirecting to the long URL
+2019-12-11 16:39:28,052 INFO flask.app Thread-150 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,053 INFO werkzeug Thread-150 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,066 INFO werkzeug Thread-151 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:28,094 INFO flask.app Thread-152 : Redirecting to the long URL
+2019-12-11 16:39:28,106 INFO flask.app Thread-152 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,107 INFO werkzeug Thread-152 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,122 INFO werkzeug Thread-153 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:28,153 INFO flask.app Thread-154 : Redirecting to the long URL
+2019-12-11 16:39:28,163 INFO flask.app Thread-154 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,164 INFO werkzeug Thread-154 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,179 INFO werkzeug Thread-155 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:28,209 INFO flask.app Thread-156 : Redirecting to the long URL
+2019-12-11 16:39:28,224 INFO flask.app Thread-156 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,236 INFO werkzeug Thread-156 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,270 INFO werkzeug Thread-157 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:28,414 INFO flask.app Thread-158 : Redirecting to the long URL
+2019-12-11 16:39:28,425 INFO flask.app Thread-158 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,426 INFO werkzeug Thread-158 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,547 INFO werkzeug Thread-159 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:28,628 INFO flask.app Thread-160 : Redirecting to the long URL
+2019-12-11 16:39:28,638 INFO flask.app Thread-160 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,639 INFO werkzeug Thread-160 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,679 INFO werkzeug Thread-161 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:28,868 INFO flask.app Thread-162 : Redirecting to the long URL
+2019-12-11 16:39:28,880 INFO flask.app Thread-162 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:28,881 INFO werkzeug Thread-162 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:28,989 INFO werkzeug Thread-163 : 127.0.0.1 - - [11/Dec/2019 16:39:28] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:29,202 INFO flask.app Thread-164 : Redirecting to the long URL
+2019-12-11 16:39:29,213 INFO flask.app Thread-164 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:29,215 INFO werkzeug Thread-164 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:29,366 INFO werkzeug Thread-165 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:29,523 INFO flask.app Thread-166 : Redirecting to the long URL
+2019-12-11 16:39:29,535 INFO flask.app Thread-166 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:29,536 INFO werkzeug Thread-166 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:29,583 INFO werkzeug Thread-167 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:29,647 INFO flask.app Thread-168 : Redirecting to the long URL
+2019-12-11 16:39:29,658 INFO flask.app Thread-168 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:29,659 INFO werkzeug Thread-168 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:29,681 INFO werkzeug Thread-169 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:29,716 INFO flask.app Thread-170 : Redirecting to the long URL
+2019-12-11 16:39:29,735 INFO flask.app Thread-170 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:29,736 INFO werkzeug Thread-170 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:29,769 INFO werkzeug Thread-171 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:29,822 INFO flask.app Thread-172 : Redirecting to the long URL
+2019-12-11 16:39:29,836 INFO flask.app Thread-172 : Exception occured when redirecting to the long URL
+2019-12-11 16:39:29,836 INFO werkzeug Thread-172 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /api/null HTTP/1.1" 200 -
+2019-12-11 16:39:29,872 INFO werkzeug Thread-173 : 127.0.0.1 - - [11/Dec/2019 16:39:29] "GET /null HTTP/1.1" 200 -
+2019-12-11 16:39:45,487 INFO werkzeug Thread-175 : 127.0.0.1 - - [11/Dec/2019 16:39:45] "GET / HTTP/1.1" 200 -
+2019-12-11 16:39:48,563 INFO flask.app Thread-176 : Minifying the URL
+2019-12-11 16:39:48,571 INFO flask.app Thread-176 : The input URL was already minified by us
+2019-12-11 16:39:48,572 INFO flask.app Thread-176 : Redirecting to the minified URL
+2019-12-11 16:39:48,573 INFO werkzeug Thread-176 : 127.0.0.1 - - [11/Dec/2019 16:39:48] "GET /api/minify?url=https://www.w3schools.com/python/ref_string_split.asp HTTP/1.1" 200 -
+2019-12-11 16:39:50,130 INFO werkzeug Thread-177 : 127.0.0.1 - - [11/Dec/2019 16:39:50] "GET /RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:39:50,168 INFO flask.app Thread-178 : Redirecting to the long URL
+2019-12-11 16:39:50,182 INFO flask.app Thread-178 : Redirection to the long URL complete
+2019-12-11 16:39:50,184 INFO werkzeug Thread-178 : 127.0.0.1 - - [11/Dec/2019 16:39:50] "GET /api/RjZTU1 HTTP/1.1" 200 -

@@ -92,7 +92,7 @@ footer {
                   rows = "3"
                   cols = "80"></textarea>
 <br><button/> Minify </button>
-<p id="url" onclick="location.href=redirection()"> Votre URL minifiée sera affichée ici </p>
+<p id="url" onclick="redirection()"> Votre URL minifiée sera affichée ici </p>
 
 <script>
 
@@ -101,7 +101,7 @@ function redirection() {
     a = document.getElementById("url").innerHTML
     b = a.split("==")
     c = b[1]
-    return c
+    return window.open(c)
 }
 
 $(document).ready(function(){
