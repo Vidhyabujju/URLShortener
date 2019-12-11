@@ -2590,3 +2590,19 @@ INFO:werkzeug: * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fa
 2019-12-11 16:45:38,079 INFO flask.app Thread-9 : Redirecting to the long URL
 2019-12-11 16:45:38,086 INFO flask.app Thread-9 : Redirection to the long URL complete
 2019-12-11 16:45:38,087 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Dec/2019 16:45:38] "POST /api/RjZTU1 HTTP/1.1" 200 -
+2019-12-11 16:48:01,561 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Dec/2019 16:48:01] "GET / HTTP/1.1" 200 -
+2019-12-11 16:49:09,344 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Dec/2019 16:49:09] "GET / HTTP/1.1" 200 -
+2019-12-11 16:49:21,216 INFO flask.app Thread-14 : Minifying the URL
+2019-12-11 16:49:21,222 INFO flask.app Thread-14 : Minification complete
+2019-12-11 16:49:21,223 INFO flask.app Thread-14 : Updating the Dataset
+2019-12-11 16:49:21,250 INFO flask.app Thread-14 : Dataset update complete
+2019-12-11 16:49:21,250 INFO flask.app Thread-14 : Redirecting to the minified URL
+2019-12-11 16:49:21,250 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Dec/2019 16:49:21] "POST /api/minify?url=https://www.google.com/search?ei=6QjxXfrUNJK_UOzFvsgE&q=group+constellation+paris&oq=group+constellation+paris&gs_l=psy-ab.3...1740672.1744935..1745338...0.5..0.120.1349.24j1......0....1..gws-wiz.......0i71j0i273j0i67j0j0i10j0i22i30j33i160.sA0v2_npQOE&ved=0ahUKEwi67Ymy8q3mAhWSHxQKHeyiD0kQ4dUDCAs&uact=5 HTTP/1.1" 200 -
+2019-12-11 16:49:30,137 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Dec/2019 16:49:30] "GET /1SAytK HTTP/1.1" 200 -
+2019-12-11 16:49:30,168 INFO flask.app Thread-16 : Redirecting to the long URL
+2019-12-11 16:49:30,185 INFO flask.app Thread-16 : Redirection to the long URL complete
+2019-12-11 16:49:30,187 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Dec/2019 16:49:30] "POST /api/1SAytK HTTP/1.1" 200 -
+2019-12-11 16:49:58,059 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Dec/2019 16:49:58] "GET /1SAytK HTTP/1.1" 200 -
+2019-12-11 16:49:58,169 INFO flask.app Thread-18 : Redirecting to the long URL
+2019-12-11 16:49:58,180 INFO flask.app Thread-18 : Redirection to the long URL complete
+2019-12-11 16:49:58,181 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Dec/2019 16:49:58] "POST /api/1SAytK HTTP/1.1" 200 -
