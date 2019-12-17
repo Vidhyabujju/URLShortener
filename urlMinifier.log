@@ -2606,3 +2606,138 @@ INFO:werkzeug: * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fa
 2019-12-11 16:49:58,169 INFO flask.app Thread-18 : Redirecting to the long URL
 2019-12-11 16:49:58,180 INFO flask.app Thread-18 : Redirection to the long URL complete
 2019-12-11 16:49:58,181 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Dec/2019 16:49:58] "POST /api/1SAytK HTTP/1.1" 200 -
+2019-12-17 13:49:54,968 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-17 13:49:54,972 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 13:49:55,895 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 13:49:55,911 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 13:50:16,848 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 13:50:16] "GET /api/1SAytK HTTP/1.1" 405 -
+2019-12-17 13:50:17,069 INFO werkzeug Thread-3 : 127.0.0.1 - - [17/Dec/2019 13:50:17] "GET /favicon.ico/ HTTP/1.1" 404 -
+2019-12-17 13:50:31,770 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 13:50:31,904 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 13:50:32,826 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 13:50:32,834 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 13:50:35,322 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-17 13:50:35,412 INFO flask.app Thread-2 : Redirection to the long URL complete
+2019-12-17 13:50:35,412 INFO flask.app Thread-2 : Exception occured when redirecting to the long URL
+2019-12-17 13:50:35,414 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 13:50:35] "GET /api/1SAytK HTTP/1.1" 200 -
+2019-12-17 13:52:17,013 INFO flask.app Thread-4 : Redirecting to the long URL
+2019-12-17 13:52:17,024 INFO flask.app Thread-4 : Redirection to the long URL complete
+2019-12-17 13:52:17,024 INFO flask.app Thread-4 : Exception occured when redirecting to the long URL
+2019-12-17 13:52:17,024 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Dec/2019 13:52:17] "GET /api/1SAytK HTTP/1.1" 200 -
+2019-12-17 13:52:36,867 INFO flask.app Thread-6 : Redirecting to the long URL
+2019-12-17 13:52:36,877 INFO flask.app Thread-6 : Redirection to the long URL complete
+2019-12-17 13:52:36,877 INFO flask.app Thread-6 : Exception occured when redirecting to the long URL
+2019-12-17 13:52:36,878 INFO werkzeug Thread-6 : 127.0.0.1 - - [17/Dec/2019 13:52:36] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:52:38,952 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-17 13:52:38,961 INFO flask.app Thread-7 : Redirection to the long URL complete
+2019-12-17 13:52:38,961 INFO flask.app Thread-7 : Exception occured when redirecting to the long URL
+2019-12-17 13:52:38,962 INFO werkzeug Thread-7 : 127.0.0.1 - - [17/Dec/2019 13:52:38] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:55:46,053 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 13:55:46,224 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 13:55:47,267 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 13:55:47,275 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 13:55:54,090 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-12-17 13:55:54,091 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 13:55:55,001 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 13:55:55,009 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 13:56:02,474 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-17 13:56:02,505 INFO flask.app Thread-2 : Redirection to the long URL complete
+2019-12-17 13:56:02,505 INFO flask.app Thread-2 : Exception occured when redirecting to the long URL
+2019-12-17 13:56:02,507 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 13:56:02] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:57:58,424 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 13:57:58,562 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 13:57:59,932 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 13:57:59,945 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 13:58:02,344 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-17 13:58:02,374 INFO flask.app Thread-2 : Redirection to the long URL complete
+2019-12-17 13:58:02,374 INFO flask.app Thread-2 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:02,375 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 13:58:02] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:03,210 INFO flask.app Thread-3 : Redirecting to the long URL
+2019-12-17 13:58:03,221 INFO flask.app Thread-3 : Redirection to the long URL complete
+2019-12-17 13:58:03,221 INFO flask.app Thread-3 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:03,222 INFO werkzeug Thread-3 : 127.0.0.1 - - [17/Dec/2019 13:58:03] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:03,433 INFO flask.app Thread-4 : Redirecting to the long URL
+2019-12-17 13:58:03,443 INFO flask.app Thread-4 : Redirection to the long URL complete
+2019-12-17 13:58:03,444 INFO flask.app Thread-4 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:03,444 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Dec/2019 13:58:03] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:03,600 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-17 13:58:03,611 INFO flask.app Thread-5 : Redirection to the long URL complete
+2019-12-17 13:58:03,611 INFO flask.app Thread-5 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:03,611 INFO werkzeug Thread-5 : 127.0.0.1 - - [17/Dec/2019 13:58:03] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:03,788 INFO flask.app Thread-6 : Redirecting to the long URL
+2019-12-17 13:58:03,800 INFO flask.app Thread-6 : Redirection to the long URL complete
+2019-12-17 13:58:03,800 INFO flask.app Thread-6 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:03,801 INFO werkzeug Thread-6 : 127.0.0.1 - - [17/Dec/2019 13:58:03] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:03,947 INFO flask.app Thread-7 : Redirecting to the long URL
+2019-12-17 13:58:03,956 INFO flask.app Thread-7 : Redirection to the long URL complete
+2019-12-17 13:58:03,956 INFO flask.app Thread-7 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:03,957 INFO werkzeug Thread-7 : 127.0.0.1 - - [17/Dec/2019 13:58:03] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:04,107 INFO flask.app Thread-8 : Redirecting to the long URL
+2019-12-17 13:58:04,116 INFO flask.app Thread-8 : Redirection to the long URL complete
+2019-12-17 13:58:04,116 INFO flask.app Thread-8 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:04,117 INFO werkzeug Thread-8 : 127.0.0.1 - - [17/Dec/2019 13:58:04] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:04,279 INFO flask.app Thread-9 : Redirecting to the long URL
+2019-12-17 13:58:04,289 INFO flask.app Thread-9 : Redirection to the long URL complete
+2019-12-17 13:58:04,290 INFO flask.app Thread-9 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:04,290 INFO werkzeug Thread-9 : 127.0.0.1 - - [17/Dec/2019 13:58:04] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:04,475 INFO flask.app Thread-10 : Redirecting to the long URL
+2019-12-17 13:58:04,486 INFO flask.app Thread-10 : Redirection to the long URL complete
+2019-12-17 13:58:04,486 INFO flask.app Thread-10 : Exception occured when redirecting to the long URL
+2019-12-17 13:58:04,486 INFO werkzeug Thread-10 : 127.0.0.1 - - [17/Dec/2019 13:58:04] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 13:58:24,235 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 13:58:24,381 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 13:58:25,424 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 13:58:25,452 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 13:58:28,472 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-17 13:58:28,502 INFO flask.app Thread-2 : Redirection to the long URL complete
+2019-12-17 13:58:28,510 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 13:58:28] "GET /api/oXg1Zm HTTP/1.1" 200 -
+2019-12-17 14:00:01,842 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Dec/2019 14:00:01] "GET /oXg1Zm HTTP/1.1" 200 -
+2019-12-17 14:00:01,895 INFO werkzeug Thread-5 : 127.0.0.1 - - [17/Dec/2019 14:00:01] "POST /api/oXg1Zm HTTP/1.1" 405 -
+2019-12-17 14:00:37,983 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 14:00:38,113 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 14:00:39,103 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 14:00:39,113 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 14:00:45,080 INFO flask.app Thread-2 : Redirecting to the long URL
+2019-12-17 14:00:45,131 INFO flask.app Thread-2 : Redirection to the long URL complete
+2019-12-17 14:00:45,133 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 14:00:45] "GET /api/oXg1Zm HTTP/1.1" 302 -
+2019-12-17 14:02:55,919 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 14:02:56,055 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 14:02:57,410 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 14:02:57,420 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 14:04:17,219 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 14:04:17] "GET / HTTP/1.1" 200 -
+2019-12-17 14:04:36,686 INFO flask.app Thread-4 : Minifying the URL
+2019-12-17 14:04:36,710 INFO flask.app Thread-4 : Minification complete
+2019-12-17 14:04:36,713 INFO flask.app Thread-4 : Updating the Dataset
+2019-12-17 14:04:36,754 INFO flask.app Thread-4 : Dataset update complete
+2019-12-17 14:04:36,754 INFO flask.app Thread-4 : Redirecting to the minified URL
+2019-12-17 14:04:36,755 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Dec/2019 14:04:36] "POST /api/minify?url=https://stackoverflow.com/questions/41718098/python-typeerror-redirect-got-an-unexpected-keyword-argument-error HTTP/1.1" 200 -
+2019-12-17 14:04:38,534 INFO flask.app Thread-5 : Redirecting to the long URL
+2019-12-17 14:04:38,547 INFO flask.app Thread-5 : Redirection to the long URL complete
+2019-12-17 14:04:38,548 INFO werkzeug Thread-5 : 127.0.0.1 - - [17/Dec/2019 14:04:38] "GET /NsCEOA HTTP/1.1" 302 -
+2019-12-17 14:05:02,120 INFO werkzeug Thread-7 : 127.0.0.1 - - [17/Dec/2019 14:05:02] "GET / HTTP/1.1" 200 -
+2019-12-17 14:06:45,809 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 14:06:45,945 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 14:06:47,202 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 14:06:47,213 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 14:07:24,973 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 14:07:24] "GET / HTTP/1.1" 200 -
+2019-12-17 14:07:34,637 INFO flask.app Thread-3 : Minifying the URL
+2019-12-17 14:07:34,662 INFO flask.app Thread-3 : Minification complete
+2019-12-17 14:07:34,663 INFO flask.app Thread-3 : Updating the Dataset
+2019-12-17 14:07:34,688 INFO flask.app Thread-3 : Dataset update complete
+2019-12-17 14:07:34,688 INFO flask.app Thread-3 : Redirecting to the minified URL
+2019-12-17 14:07:34,689 INFO werkzeug Thread-3 : 127.0.0.1 - - [17/Dec/2019 14:07:34] "POST /api/minify?url=https://www.google.com/search?sxsrf=ACYBGNReMs8T3WzWHHf__B8csK3ij82_2Q%3A1576587381430&ei=ddD4XfnsGdSbjLsP0ZiaiAQ&q=urlencoder+with+string+python&oq=urlencoder+with+string+python&gs_l=psy-ab.3..0.537497.542971..543213...0.6..0.79.1772.29....3..0....1..gws-wiz.......0i71j35i39j0i273j0i67j0i20i263j0i203j0i22i30j0i22i10i30j33i22i29i30.x2fpthmAZFw&ved=0ahUKEwi5-87W3bzmAhXUDWMBHVGMBkEQ4dUDCAs&uact=5 HTTP/1.1" 200 -
+2019-12-17 14:07:36,208 INFO flask.app Thread-4 : Redirecting to the long URL
+2019-12-17 14:07:36,220 INFO flask.app Thread-4 : Redirection to the long URL complete
+2019-12-17 14:07:36,222 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Dec/2019 14:07:36] "GET /EyBJUh HTTP/1.1" 302 -
+2019-12-17 14:08:42,089 INFO werkzeug MainThread :  * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/URLShortener/URLShortener/restAPI.py', reloading
+2019-12-17 14:08:42,221 INFO werkzeug MainThread :  * Restarting with stat
+2019-12-17 14:08:43,877 WARNING werkzeug MainThread :  * Debugger is active!
+2019-12-17 14:08:43,885 INFO werkzeug MainThread :  * Debugger PIN: 296-670-759
+2019-12-17 14:08:45,637 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/Dec/2019 14:08:45] "GET / HTTP/1.1" 200 -
+2019-12-17 14:08:49,114 INFO flask.app Thread-3 : Minifying the URL
+2019-12-17 14:08:49,147 INFO flask.app Thread-3 : The input URL was already minified by us
+2019-12-17 14:08:49,148 INFO flask.app Thread-3 : Redirecting to the minified URL
+2019-12-17 14:08:49,149 INFO werkzeug Thread-3 : 127.0.0.1 - - [17/Dec/2019 14:08:49] "POST /api/minify?url=https://www.google.com/search?sxsrf=ACYBGNReMs8T3WzWHHf__B8csK3ij82_2Q%3A1576587381430&ei=ddD4XfnsGdSbjLsP0ZiaiAQ&q=urlencoder+with+string+python&oq=urlencoder+with+string+python&gs_l=psy-ab.3..0.537497.542971..543213...0.6..0.79.1772.29....3..0....1..gws-wiz.......0i71j35i39j0i273j0i67j0i20i263j0i203j0i22i30j0i22i10i30j33i22i29i30.x2fpthmAZFw&ved=0ahUKEwi5-87W3bzmAhXUDWMBHVGMBkEQ4dUDCAs&uact=5 HTTP/1.1" 200 -
+2019-12-17 14:08:50,899 INFO flask.app Thread-4 : Redirecting to the long URL
+2019-12-17 14:08:50,910 INFO flask.app Thread-4 : Redirection to the long URL complete
+2019-12-17 14:08:50,911 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Dec/2019 14:08:50] "GET /EyBJUh HTTP/1.1" 302 -

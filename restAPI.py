@@ -4,7 +4,7 @@
 # In[3]:
 
 try:   
-    from flask import Flask, request, abort, render_template
+    from flask import Flask, request, abort, render_template, redirect
     from flask_cors import CORS
     from flask_restful import Resource, Api
     from openpyxl import load_workbook
@@ -30,10 +30,6 @@ def render_static():
 @app.route('/statistics')
 def statistics():
     return render_template('profiler.html')
-
-@app.route('/<string:key>')
-def redirect(key):
-    return render_template('redirect.html')
 
 logging.basicConfig(filename='urlMinifier.log', level=logging.NOTSET, format='%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
@@ -100,8 +96,7 @@ class URL_Minifier(Resource):
         url1 = request.args.to_dict()
         url2=''
         for k, v in url1.items() :
-            v=v.replace("&","%26")
-            v=v.replace(",","%2C")
+            urllib.parse.quote(v)
             url2=url2+k+'='+v+'&'
         url3=url2[:-1]
         url=url3[4:]
@@ -119,9 +114,8 @@ class URL_Minifier(Resource):
                 return "Minification déjà effectuée. URL minifiée ==" + minifier
             else :
                 minifier = shorten_url()
-                rediretion = minifier[:-6]+"api/"+minifier[22:]
                 app.logger.info('Minification complete')
-                df1 = pandas.DataFrame({"Date" : [datetime.date(datetime.now())],"Long" : [url],"Short" : [minifier],"Redirection" : [rediretion]})
+                df1 = pandas.DataFrame({"Date" : [datetime.date(datetime.now())],"Long" : [url],"Short" : [minifier]})
                 app.logger.info('Updating the Dataset')
                 append_df_to_excel('check.xlsx',df1)
                 app.logger.info('Dataset update complete')
@@ -138,17 +132,16 @@ class URL_Minifier(Resource):
 class URL_Redirection(Resource):
 
     ps.enable()
-    def post(self,key):
+    def get(self,key):
         try:
             app.logger.info('Redirecting to the long URL')
             df4 = pandas.read_excel('check.xlsx')
-            url = "http://127.0.0.1:5000/api/"+key
-            if getattr(df4, 'Redirection').isin([url]).any() :
-                val = df4.loc[df4['Redirection'] == url, 'Long'].item()
-                #webbrowser.open_new_tab(val)
+            url = "http://127.0.0.1:5000/"+key
+            if getattr(df4, 'Short').isin([url]).any() :
+                val = df4.loc[df4['Short'] == url, 'Long'].item()
                 app.logger.info('Redirection to the long URL complete')
-                return (val)
-            else:
+                return redirect(val)
+            else: 
                 return abort(404)
         except Exception as e:
             app.logger.info('Exception occured when redirecting to the long URL')
@@ -158,7 +151,7 @@ class URL_Redirection(Resource):
 ##    writetoCSV('profiler-output.csv')
 
 api.add_resource(URL_Minifier, '/api/minify')  
-api.add_resource(URL_Redirection, '/api/<string:key>')
+api.add_resource(URL_Redirection, '/<string:key>')
 
 if __name__ == '__main__':
     app.run(debug=True)
