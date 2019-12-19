@@ -2741,3 +2741,4 @@ INFO:werkzeug: * Detected change in '/Users/raghupathynarayanamoorthy/Desktop/fa
 2019-12-17 14:08:50,899 INFO flask.app Thread-4 : Redirecting to the long URL
 2019-12-17 14:08:50,910 INFO flask.app Thread-4 : Redirection to the long URL complete
 2019-12-17 14:08:50,911 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/Dec/2019 14:08:50] "GET /EyBJUh HTTP/1.1" 302 -
+2019-12-17 14:13:26,582 INFO werkzeug Thread-6 : 127.0.0.1 - - [17/Dec/2019 14:13:26] "GET / HTTP/1.1" 200 -
